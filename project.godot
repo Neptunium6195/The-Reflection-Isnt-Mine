@@ -59,3 +59,11 @@ dialogic_default_action={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":0,"pressure":0.0,"pressed":false,"script":null)
 ]
 }
+
+[layer_names]
+
+2d_physics/layer_1="Book1"
+2d_physics/layer_2="Book2"
+2d_physics/layer_3="Book3"
+2d_physics/layer_4="Book4"
+2d_physics/layer_5="Book5"

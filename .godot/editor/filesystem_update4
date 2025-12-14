@@ -1,5 +1,4 @@
+res://books.tscn
 res://Styles/newStyle.tres
-res://story.tscn
+res://area_2d.gd
 res://Timelines/timeline1.dtl
-res://title.tscn
-res://start.gd

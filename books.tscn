@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://rut3dw5t8qgc"]
+[gd_scene load_steps=9 format=3 uid="uid://rut3dw5t8qgc"]
 
 [ext_resource type="Texture2D" uid="uid://lxyqcggmp8pa" path="res://Assets/book.jpg" id="1_drp12"]
 [ext_resource type="Texture2D" uid="uid://bpsykbavxktq" path="res://Assets/book1.jpg" id="2_rv1at"]
@@ -11,6 +11,9 @@ size = Vector2(72, 18.74459)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n7s3d"]
 size = Vector2(243.9939, 71.37677)
+
+[sub_resource type="LabelSettings" id="LabelSettings_rv1at"]
+font_size = 57
 
 [node name="Books" type="Node2D"]
 
@@ -65,6 +68,8 @@ script = ExtResource("3_n7s3d")
 [node name="Area2D" type="Area2D" parent="broom2"]
 position = Vector2(-47183.875, -5834.1147)
 scale = Vector2(47.0897, 17.679136)
+collision_layer = 2
+collision_mask = 2
 script = ExtResource("4_863wg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="broom2/Area2D"]
@@ -88,11 +93,75 @@ grow_vertical = 2
 [node name="Area2D3" type="Area2D" parent="."]
 position = Vector2(701.58154, 905.8892)
 scale = Vector2(0.44581506, 0.51181036)
+collision_layer = 2
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
 position = Vector2(570.6816, -1066.5848)
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
+
+[node name="Area2D4" type="Area2D" parent="."]
+position = Vector2(701.58154, 905.8892)
+scale = Vector2(0.44581506, 0.51181036)
+collision_layer = 4
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
+position = Vector2(900.4147, -1062.6772)
+scale = Vector2(1.0000001, 1)
+shape = SubResource("RectangleShape2D_n7s3d")
+
+[node name="broom3" type="Sprite2D" parent="."]
+position = Vector2(1383, 542)
+scale = Vector2(0.54849696, 0.479193)
+texture = ExtResource("2_rv1at")
+script = ExtResource("3_n7s3d")
+
+[node name="Area2D" type="Area2D" parent="broom3"]
+position = Vector2(-47183.875, -5834.1147)
+scale = Vector2(47.0897, 17.679136)
+collision_layer = 4
+collision_mask = 4
+script = ExtResource("4_863wg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="broom3/Area2D"]
+position = Vector2(1002.0076, 348.59122)
+scale = Vector2(0.038716815, 0.4471064)
+shape = SubResource("RectangleShape2D_d8hb3")
+
+[node name="Button" type="Button" parent="broom3"]
+self_modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -63.810852
+offset_top = -381.89203
+offset_right = -64.54303
+offset_bottom = -375.63165
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="label1" type="Label" parent="."]
+visible = false
+offset_left = 270.0
+offset_top = 1266.0
+offset_right = 1873.0
+offset_bottom = 1454.0
+text = "What does it say...."
+label_settings = SubResource("LabelSettings_rv1at")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+offset_left = 491.0
+offset_top = 1205.0
+offset_right = 1532.0
+offset_bottom = 1537.0
+color = Color(0, 0, 0, 0.70980394)
 
 [connection signal="area_entered" from="broom/Area2D" to="broom/Area2D" method="_on_area_entered"]
 [connection signal="body_entered" from="broom/Area2D" to="broom/Area2D" method="_on_body_entered"]
@@ -106,3 +175,9 @@ shape = SubResource("RectangleShape2D_n7s3d")
 [connection signal="button_down" from="broom2/Button" to="broom2" method="_on_button_button_down"]
 [connection signal="button_up" from="broom2/Button" to="broom2" method="_on_button_button_up"]
 [connection signal="area_entered" from="Area2D3" to="Area2D3" method="_on_area_entered"]
+[connection signal="area_entered" from="Area2D4" to="Area2D4" method="_on_area_entered"]
+[connection signal="area_entered" from="broom3/Area2D" to="broom3/Area2D" method="_on_area_entered"]
+[connection signal="body_entered" from="broom3/Area2D" to="broom3/Area2D" method="_on_body_entered"]
+[connection signal="body_shape_entered" from="broom3/Area2D" to="broom3/Area2D" method="_on_body_shape_entered"]
+[connection signal="button_down" from="broom3/Button" to="broom3" method="_on_button_button_down"]
+[connection signal="button_up" from="broom3/Button" to="broom3" method="_on_button_button_up"]

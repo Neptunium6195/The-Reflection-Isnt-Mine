@@ -22,12 +22,15 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"bee1": "res://Characters/bee1.dch",
-"ellia": "res://Characters/ellia.dch"
+"charles": "res://Characters/charles.dch",
+"ellia": "res://Characters/ellia.dch",
+"mrs-williams": "res://Characters/mrs-williams.dch"
 }
 directories/dtl_directory={
-"timeline": "res://Timelines/timeline.dtl",
-"timeline1": "res://Timelines/intro1.dtl"
+"day1a": "res://Timelines/day1a.dtl",
+"day1b": "res://Timelines/day1b.dtl",
+"intro": "res://Timelines/intro.dtl",
+"timeline": "res://Timelines/timeline.dtl"
 }
 layout/style_directory={
 "": "res://Styles/newStyle.tres",

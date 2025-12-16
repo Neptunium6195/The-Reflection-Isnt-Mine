@@ -1,0 +1,49 @@
+# entrance hall bg
+[background fade="0.0"]
+ellia: The paintings are dusted.
+ellia: The only thing left in this hall is the mirror.
+# mirror center view
+[background fade="0.0"]
+[wait time="2.5"]
+ellia: The gilding for the frame is exquisite.
+ellia: And what a large mirror.
+ellia: I cannot even see the top of it from here.
+# mirror cleaning puzzle (have not created yet)
+[call node="GameController" method="start_drag_minigame"]
+[wait time="1.0"]
+ellia: All done.
+join charles center
+charles: Ellia…
+leave charles
+join ellia center
+ellia: Who is there?
+leave ellia
+# cutscene for mirror fingerprints
+[call node="CutsceneController" method="play_cutscene"]
+[wait time="1.0"]
+ellia: What…? Where did the fingerprints even come from?
+ellia: I just cleaned it.
+ellia: I swear someone called my name, yet it’s empty…
+ellia: There is something bizarre about this estate.
+# zoom into where fingerprints lead
+ellia: This sigil seems familiar.
+ellia: I am quite convinced I have seen it somewhere… Is it the seal of the Ludingtons?
+ellia: It is a bit simple to be one, though I am not certain what it should look like.
+# haunting music
+audio -
+# clock bongs nine times?
+audio -
+[wait time="9.0"]
+ellia: Oh my, it is already time to tidy the rooms.
+# ludingtons bedroom doors
+[background fade="0.0"]
+[wait time="1.5"]
+# knock sound
+audio -
+[wait time="2"]
+ellia: I do not hear anything. I guess it is empty.
+# pan of bedroom
+[background fade="0.0"]
+[wait time="2.5"]
+# cutscene for foggy mirror message
+[call node="CutsceneController" method="play_cutscene"]

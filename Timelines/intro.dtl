@@ -1,0 +1,84 @@
+[background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
+join mrs-williams center
+mrs-williams: You must be Ellia.
+mrs-williams: I trust the journey here was well, no?
+leave mrs-williams
+join ellia center
+ellia: Yes, ma’am.
+leave ellia
+join mrs-williams center
+mrs-williams: The estate is more isolated than most, unfortunately.
+mrs-williams: You were the only one to respond to the advert, were you not fond of your job in the city?
+leave mrs-williams
+join ellia center
+ellia: The city is not the most fitting place for a girl to live alone, ma’am.
+leave ellia
+join mrs-williams center
+mrs-williams: Ah, I see.
+mrs-williams: Well, come along. No time to dilly-dally.
+leave --All--
+# go to hallway
+[background fade="0.0"]
+# show portrait
+[background fade="0.0"]
+# for vibes
+audio -
+[wait time="5.0"]
+# back to hallway bg
+[background fade="0.0"]
+join ellia (ellia-happy) center
+ellia (ellia-happy): Woah.
+leave ellia
+join mrs-williams center
+mrs-williams: Enchanting, aren’t they?
+mrs-williams: The Ludingtons have centuries-old ties to the property.
+mrs-williams: Their presence lingers in every stone of this place.
+leave mrs-williams
+join ellia center
+ellia: What happened to them?
+leave ellia
+join mrs-williams center
+mrs-williams: The master and mistress of the estate reside here still.
+mrs-williams: The children… best not to wonder too much. There is much to be done.
+leave mrs-williams
+# change to entrance hall
+[background fade="0.0"]
+join mrs-williams center
+mrs-williams: You are to begin at 5 o’clock every morning.
+mrs-williams: Your list of tasks will be posted at your door. I am sure you know the master’s bedchamber must be cleaned twice a day, the others once every other day.
+mrs-williams: You may do as you please when you have completed your tasks.
+mrs-williams: The family is not fond of seeing the help around. Stay out of sight unless they request your presence\: that will be by the bell.
+mrs-williams: Do not speak unless you are spoken to.
+mrs-williams: You are provided breakfast, lunch, and dinner in the kitchens.
+mrs-williams: All the supplies needed will be in the supply closet on the right of this hall.
+leave mrs-williams
+# door of ellia's room
+join mrs-williams center
+mrs-williams: The last maid lived in the attic, but it has been a while since she was here and the attic is all dusty now.
+mrs-williams: You can sleep here.
+leave mrs-williams
+join ellia center
+ellia: Thank you.
+leave ellia
+join mrs-williams center
+mrs-williams: Do make an effort to enjoy your time in these halls.
+mrs-williams: The manor… it watches, you must know. Rest well.
+leave mrs-williams
+# ellia's room pan
+[background fade="0.0"]
+[wait time="5.0"]
+# another part of bedroom?
+[background fade="0.0"]
+# thoughts
+[style]
+ellia: It watches? What is that supposed to mean? There [i]are[/i] a lot of portraits here.
+ellia: Thank goodness they gave me clothing. I could not find any of my old uniforms before I came.
+ellia: I shall try it on tomorrow, for it is getting quite late.
+ellia: And I am filled with utter gratitude that they feed me. What considerate masters.
+# creaking
+[wait time="3.0"]
+audio -
+ellia: Such an old manor.
+ellia: The creaking is a bit unsettling…
+ellia: It feels like there’s someone right at my door.
+do Dialogic.handle_next_event("res://sweeping.tscn")

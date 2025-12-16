@@ -10,30 +10,20 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "neutral",
+&"default_portrait": "mrs-williams-neutral",
 &"description": "",
-&"display_name": "blue",
+&"display_name": "Mrs. Williams",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"happy!": {
+"mrs-williams-neutral": {
 "export_overrides": {
-"image": "\"res://Assets/blueHappy.png\""
+"image": "\"res://Assets/mrs-williams-neutral.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 1,
-"scene": ""
-},
-"neutral": {
-"export_overrides": {
-"image": "\"res://Assets/blueNeutral.png\""
-},
-"ignore_char_scale": false,
-"mirror": false,
-"offset": Vector2(0, 0),
-"scale": 1.0,
+"scale": 0.75,
 "scene": ""
 }
 },

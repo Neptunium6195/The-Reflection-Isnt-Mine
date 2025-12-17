@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://c3xatw73i62us"
-path="res://.godot/imported/Radley-Italic.ttf-5f87a88742f68e2a32a65b6c8fe323e1.fontdata"
+path="res://.godot/imported/Radley-Italic.ttf-ae06c015a5fdc85aabad3d180b908e22.fontdata"
 
 [deps]
 
-source_file="res://Assets/Radley-Italic.ttf"
-dest_files=["res://.godot/imported/Radley-Italic.ttf-5f87a88742f68e2a32a65b6c8fe323e1.fontdata"]
+source_file="res://Assets/Fonts/Radley-Italic.ttf"
+dest_files=["res://.godot/imported/Radley-Italic.ttf-ae06c015a5fdc85aabad3d180b908e22.fontdata"]
 
 [params]
 

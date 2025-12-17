@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ct0v7q04fosxo"
-path="res://.godot/imported/ellia-happy.png-b2b49b3cef52e0a04380cca8cbdc9b43.ctex"
+uid="uid://cr2nri46k3owk"
+path="res://.godot/imported/ellia-teary.png-351292ab6ace6cb0dedeb1196832f902.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/ellia-happy.png"
-dest_files=["res://.godot/imported/ellia-happy.png-b2b49b3cef52e0a04380cca8cbdc9b43.ctex"]
+source_file="res://Assets/Character Portraits/ellia-teary.png"
+dest_files=["res://.godot/imported/ellia-teary.png-351292ab6ace6cb0dedeb1196832f902.ctex"]
 
 [params]
 

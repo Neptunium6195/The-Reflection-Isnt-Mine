@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kf1nod3mte4p"
-path="res://.godot/imported/ellia-shocked.png-94918069d3c73ca1dd63d38f17386ec4.ctex"
+uid="uid://vyl4utejgljy"
+path="res://.godot/imported/play-text.png-1ea5aed8a45457b817f2a9df6129cf7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/ellia-shocked.png"
-dest_files=["res://.godot/imported/ellia-shocked.png-94918069d3c73ca1dd63d38f17386ec4.ctex"]
+source_file="res://Assets/Title Page/play-text.png"
+dest_files=["res://.godot/imported/play-text.png-1ea5aed8a45457b817f2a9df6129cf7a.ctex"]
 
 [params]
 

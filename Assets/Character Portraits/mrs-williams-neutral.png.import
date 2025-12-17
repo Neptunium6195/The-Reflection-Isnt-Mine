@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yhgiutpaw7vx"
-path="res://.godot/imported/mrs-williams-neutral.png-6120e406827c653e33c91aaf8486f4ab.ctex"
+path="res://.godot/imported/mrs-williams-neutral.png-a664d71bc9e833e4cfbdc86cbae87854.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/mrs-williams-neutral.png"
-dest_files=["res://.godot/imported/mrs-williams-neutral.png-6120e406827c653e33c91aaf8486f4ab.ctex"]
+source_file="res://Assets/Character Portraits/mrs-williams-neutral.png"
+dest_files=["res://.godot/imported/mrs-williams-neutral.png-a664d71bc9e833e4cfbdc86cbae87854.ctex"]
 
 [params]
 

@@ -16,7 +16,7 @@
 script = ExtResource("2_4urt0")
 scene = ExtResource("1_j7222")
 overrides = {
-"global_font": "\"res://Assets/Radley-Regular.ttf\"",
+"global_font": "\"res://Assets/Fonts/Radley-Regular.ttf\"",
 "global_font_size": "50.0"
 }
 
@@ -83,4 +83,4 @@ layer_info = {
 "16": SubResource("Resource_g4kwk"),
 "17": SubResource("Resource_r3pxr")
 }
-metadata/_latest_layer = "12"
+metadata/_latest_layer = ""

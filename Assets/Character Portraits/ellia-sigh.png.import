@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmbkhws0v286o"
-path="res://.godot/imported/blueHappy.png-1498bdd39f0405f446d9dfb30ef63f24.ctex"
+uid="uid://b2fevy6b6gyyo"
+path="res://.godot/imported/ellia-sigh.png-573db5ddc3a15df9a429bb78e72b5259.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/blueHappy.png"
-dest_files=["res://.godot/imported/blueHappy.png-1498bdd39f0405f446d9dfb30ef63f24.ctex"]
+source_file="res://Assets/Character Portraits/ellia-sigh.png"
+dest_files=["res://.godot/imported/ellia-sigh.png-573db5ddc3a15df9a429bb78e72b5259.ctex"]
 
 [params]
 

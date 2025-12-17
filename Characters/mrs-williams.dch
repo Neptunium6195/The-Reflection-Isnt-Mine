@@ -19,7 +19,7 @@
 &"portraits": {
 "mrs-williams-neutral": {
 "export_overrides": {
-"image": "\"res://Assets/mrs-williams-neutral.png\""
+"image": "\"res://Assets/Character Portraits/mrs-williams-neutral.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,

@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765940455
+::res://::1765941395
 area.gd::GDScript::8758110322780042918::1765666943::0::1::::<>Area2D<><>0<>0<><>::
 area_2d.gd::GDScript::2704890553002805836::1765936219::0::1::::<>Area2D<><>0<>0<><>::
 area_2d_2.gd::GDScript::756022332022615827::1765936219::0::1::::<>Area2D<><>0<>0<><>::
@@ -13,13 +13,13 @@ Maid.gd::GDScript::6357542695302940562::1765936219::0::1::::<>Node<><>0<>0<><>::
 movement.tscn::PackedScene::2670012373044761412::1765666943::0::1::::<><><>0<>0<><>::uid://d0uuh3ej4nueg::::res://icon.svg
 object.gd::GDScript::2668521316012674120::1765666943::0::1::::<>Sprite2D<><>0<>0<><>::
 README.md::TextFile::-1::1765666942::0::1::::<><><>0<>0<><>::
-start.gd::GDScript::1811001466746443192::1765940337::0::1::::<>Button<><>0<>0<><>::
-story.tscn::PackedScene::5333383352729887105::1765940442::0::1::::<><><>0<>0<><>::uid://cwtv2gbm4mfxa::::res://Maid.gd
+start.gd::GDScript::1811001466746443192::1765940541::0::1::::<>Button<><>0<>0<><>::
+story.tscn::PackedScene::5333383352729887105::1765940696::0::1::::<><><>0<>0<><>::uid://cwtv2gbm4mfxa::::res://Maid.gd
 sweeping.gd::GDScript::-1::1765936219::0::1::::<>Node2D<><>0<>0<><>::
 sweeping.tscn::PackedScene::3847996063835749629::1765936219::0::1::::<><><>0<>0<><>::uid://bow7dgw111tgw::::res://Assets/floor.jpeg<>uid://dh70jfoq6ps77::::res://Assets/dust.png<>uid://yp3w2muikvqp::::res://broom.gd<>uid://dks7t8hvfjyd5::::res://Assets/broom.png<>uid://diu5arl57dcor::::res://Assets/dust2.png<>uid://grxlshbnvaeg::::res://Assets/dust3.png<>uid://k1htvoiqr2p8::::res://area_2d_2.gd
 test.gd::GDScript::6911165094505058836::1765666943::0::1::::<>Area2D<><>0<>0<><>::
 Test.tscn::PackedScene::3038218475863247754::1765666942::0::1::::<><><>0<>0<><>::uid://d0uuh3ej4nueg::::res://icon.svg
-title.tscn::PackedScene::5962420318768982135::1765934912::0::1::::<><><>0<>0<><>::uid://c0de1a0ovdk82::::res://Assets/title-screen.png<>uid://vyl4utejgljy::::res://Assets/play-text.png<>uid://02i6utxovaps::::res://start.gd
+title.tscn::PackedScene::5962420318768982135::1765941395::0::1::::<><><>0<>0<><>::uid://c0de1a0ovdk82::::res://Assets/Title Page/title-screen.png<>uid://vyl4utejgljy::::res://Assets/Title Page/play-text.png<>uid://02i6utxovaps::::res://start.gd
 ::res://addons/::1765666943
 ::res://addons/dialogic/::1765666943
 plugin.cfg::TextFile::-1::1765666943::0::1::::<><><>0<>0<><>::
@@ -654,11 +654,7 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1765666943::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1765666943::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1765666943::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1765666943::0::1::::<>RefCounted<><>0<>0<><>::
-::res://Assets/::1765936236
-beaHappy.png::CompressedTexture2D::6624727362625615528::1765934912::1765935097::1::::<><><>0<>0<>906c65b56e5b63b4deee65e09d329c43<>res://.godot/imported/beaHappy.png-dcfa296ffe52f068e3f2304ccc72767e.ctex::
-beaNeutral.png::CompressedTexture2D::8537161242446814892::1765934912::1765935097::1::::<><><>0<>0<>6fd8b39feb05bbbe08a0b05694b2c04e<>res://.godot/imported/beaNeutral.png-d320e7be9de8f1e5a00fd79738c3bb5c.ctex::
-blueHappy.png::CompressedTexture2D::3231372040073780088::1765934912::1765935097::1::::<><><>0<>0<>5e2b7a2ce346373dac2354aabee1aa0e<>res://.godot/imported/blueHappy.png-1498bdd39f0405f446d9dfb30ef63f24.ctex::
-blueNeutral.png::CompressedTexture2D::765548208325756944::1765934912::1765935097::1::::<><><>0<>0<>49d87441dc87854b4b23e4ad43c5f8c1<>res://.godot/imported/blueNeutral.png-78bb07b90d834867fc54f5c49c8a2c1f.ctex::
+::res://Assets/::1765941395
 book1.jpg::CompressedTexture2D::102290801679728006::1765666942::1765731775::1::::<><><>0<>0<>c3e038f56a3aefd5c986c48482f40b1c<>res://.godot/imported/book1.jpg-b3b9f115586401cc7e7137823d39031e.ctex::
 book2.jpg::CompressedTexture2D::6174477455333438195::1765666942::1765731775::1::::<><><>0<>0<>d5bb31c150a66197166d37290dfeef26<>res://.godot/imported/book2.jpg-400fb98933b443cbc6aa046e23b72bb0.ctex::
 book.jpg::CompressedTexture2D::821043863495408122::1765666942::1765731776::1::::<><><>0<>0<>08c668cca7bf8ae24280f42f4f170967<>res://.godot/imported/book.jpg-26cb8d5619d82781257e9dbb960a90db.ctex::
@@ -669,38 +665,40 @@ dust2.png::CompressedTexture2D::7763882776343498893::1765731395::1765731776::1::
 dust3.png::CompressedTexture2D::457644574511359846::1765731395::1765731776::1::::<><><>0<>0<>b791fd9256e1be37701c047779354d49<>res://.godot/imported/dust3.png-b097fcbd4dd8aaa70be715beabf99b46.ctex::
 dust.jpg::CompressedTexture2D::8035262418123672021::1765666942::1765731776::1::::<><><>0<>0<>782756675691cfc41ec661ed7f958524<>res://.godot/imported/dust.jpg-c6f369e5a242b16c8e684ec96b5244a1.ctex::
 dust.png::CompressedTexture2D::7718178326652765584::1765731395::1765731773::1::::<><><>0<>0<>0ccf0945b82072890444e70d8b14b61f<>res://.godot/imported/dust.png-3233d1bc76c21942ee3874dea34841e1.ctex::
-ellia-confused.png::CompressedTexture2D::7882491066751537367::1765686267::1765731776::1::::<><><>0<>0<>1d54ed572a50ba32f044efbb154cb177<>res://.godot/imported/ellia-confused.png-043d8b15d5e660b581b961e39af24ebe.ctex::
-ellia-happy.png::CompressedTexture2D::6159371922931957764::1765686267::1765731776::1::::<><><>0<>0<>23a1af3f0696a021171896f764df8b58<>res://.godot/imported/ellia-happy.png-b2b49b3cef52e0a04380cca8cbdc9b43.ctex::
-ellia-shocked.png::CompressedTexture2D::713812923533610001::1765686267::1765731776::1::::<><><>0<>0<>cc199e421795589bf54f72eacd501eb7<>res://.godot/imported/ellia-shocked.png-94918069d3c73ca1dd63d38f17386ec4.ctex::
-ellia-sigh.png::CompressedTexture2D::4292123028869809566::1765686267::1765731776::1::::<><><>0<>0<>0062ed64e973e889279424258364cbb6<>res://.godot/imported/ellia-sigh.png-7df7225697e5cba6c2e29de32c5e5aa3.ctex::
-ellia-teary.png::CompressedTexture2D::6022610054403822030::1765686267::1765731776::1::::<><><>0<>0<>76b0ec5cab8f9c0734eaecdf34ddf768<>res://.godot/imported/ellia-teary.png-2ddbeaf1130eec98c60c042256456844.ctex::
-ellia-worried.png::CompressedTexture2D::582932386667349126::1765686267::1765731776::1::::<><><>0<>0<>23be5dca3e4eb2410d7451b434a0ee07<>res://.godot/imported/ellia-worried.png-a15a5e6477a6bf70b0df35ba0a76e7ed.ctex::
 floor.jpeg::CompressedTexture2D::3416429456708018910::1765666942::1765731773::1::::<><><>0<>0<>6e213820f184d0d10d57f4dd231f8339<>res://.godot/imported/floor.jpeg-2c626fce86b80494dbf86b02119d8ced.ctex::
 IMG_0744.PNG::CompressedTexture2D::2729098251269558365::1765666942::1765731774::1::::<><><>0<>0<>240f456a6e4359651fd4d08a2b224272<>res://.godot/imported/IMG_0744.PNG-d2ee49e558c244b3cc122fe87e2ed3cb.ctex::
 libraryBg.jpg::CompressedTexture2D::1326919889115996058::1765666942::1765731773::1::::<><><>0<>0<>1c07589bd66b9ca2aa547da530cef906<>res://.godot/imported/libraryBg.jpg-05efb9a71724f9fd858bb88d6fbdca12.ctex::
-mrs-williams-neutral.png::CompressedTexture2D::1699362560399754161::1765936228::1765936234::1::::<><><>0<>0<>3fff8d5a2778053c45307870bf3bfb08<>res://.godot/imported/mrs-williams-neutral.png-6120e406827c653e33c91aaf8486f4ab.ctex::
 nameBox.png::CompressedTexture2D::4912113850341685418::1765666942::1765731773::1::::<><><>0<>0<>d040fe74cf9b21c41ba8ee5554e92ac1<>res://.godot/imported/nameBox.png-d54de31ea69b26458b77b845988b1c03.ctex::
 nine patch.png::CompressedTexture2D::3842829255668703817::1765666942::1765731773::1::::<><><>0<>0<>fe7473553afa2ed5954de2b11ceeafa1<>res://.godot/imported/nine patch.png-d491ee5e51808f26396fc6f51738b07c.ctex::
-play-text.png::CompressedTexture2D::1524231537452092150::1765936228::1765936233::1::::<><><>0<>0<>045ef501e55da22779f97c1f8170292a<>res://.godot/imported/play-text.png-3e876f59a49556cb5d6183b8d24a5df0.ctex::
-Radley-Italic.ttf::FontFile::6785644813910254110::1765744354::1765744354::1::::<><><>0<>0<>3f98d9f2c43e18285d5aa857c8932a05<>res://.godot/imported/Radley-Italic.ttf-5f87a88742f68e2a32a65b6c8fe323e1.fontdata::
-Radley-Regular.ttf::FontFile::8497363645212177113::1765744322::1765744322::1::::<><><>0<>0<>195623584191ca4f05f6470061bc3824<>res://.godot/imported/Radley-Regular.ttf-ee8527f99908131fe4193eee72f26ff6.fontdata::
 textBox-removebg-preview.png::CompressedTexture2D::4657140005570160565::1765666942::1765731773::1::::<><><>0<>0<>853aa614379ed14226bebf2c43a7e6ad<>res://.godot/imported/textBox-removebg-preview.png-9c29cccacc238554d163dc062b2b6e4f.ctex::
-title-screen.png::CompressedTexture2D::6534044929496184205::1765936228::1765936236::1::::<><><>0<>0<>95468275e7213ee579513a0d6c2c34a1<>res://.godot/imported/title-screen.png-e7cb6c66d923d82ca71dbf81f3ed2ecb.ctex::
-::res://Characters/::1765940442
+::res://Assets/Character Portraits/::1765941238
+ellia-confused.png::CompressedTexture2D::7882491066751537367::1765686267::1765941229::1::::<><><>0<>0<>0ddeade7530193469fbe961df709298b<>res://.godot/imported/ellia-confused.png-639b2421475a9ee77882819a1ad03dd8.ctex::
+ellia-happy.png::CompressedTexture2D::6159371922931957764::1765686267::1765941229::1::::<><><>0<>0<>416023f61a0e54a41aacdf123649fe61<>res://.godot/imported/ellia-happy.png-7e3682fb7bef49c8cf2a78d58746cc4b.ctex::
+ellia-shocked.png::CompressedTexture2D::713812923533610001::1765686267::1765941229::1::::<><><>0<>0<>24c5ffa0139e35881a7b7d925fc9c32f<>res://.godot/imported/ellia-shocked.png-72ab0868de0c32f84ce78f5ffefcccfd.ctex::
+ellia-sigh.png::CompressedTexture2D::4292123028869809566::1765686267::1765941229::1::::<><><>0<>0<>78355ead6591a5789b54d7a6e3be7486<>res://.godot/imported/ellia-sigh.png-573db5ddc3a15df9a429bb78e72b5259.ctex::
+ellia-teary.png::CompressedTexture2D::6022610054403822030::1765686267::1765941229::1::::<><><>0<>0<>15e6d822418f4345271397b2ccb122c2<>res://.godot/imported/ellia-teary.png-351292ab6ace6cb0dedeb1196832f902.ctex::
+ellia-worried.png::CompressedTexture2D::582932386667349126::1765686267::1765941229::1::::<><><>0<>0<>72c2ebf9461c9850744588779b5235cc<>res://.godot/imported/ellia-worried.png-4ca19ed71c90d8304463ed37d1cd27ab.ctex::
+mrs-williams-neutral.png::CompressedTexture2D::1699362560399754161::1765936228::1765941238::1::::<><><>0<>0<>670b59a8eb2048dfa537c94b40bff3bb<>res://.godot/imported/mrs-williams-neutral.png-a664d71bc9e833e4cfbdc86cbae87854.ctex::
+::res://Assets/Fonts/::1765941355
+Radley-Italic.ttf::FontFile::6785644813910254110::1765744354::1765941355::1::::<><><>0<>0<>4b73e50b30ce3f30dbb9265f088040fb<>res://.godot/imported/Radley-Italic.ttf-ae06c015a5fdc85aabad3d180b908e22.fontdata::
+Radley-Regular.ttf::FontFile::8497363645212177113::1765744322::1765941355::1::::<><><>0<>0<>abff941b29253a5b4b7f70cc8a1c85c8<>res://.godot/imported/Radley-Regular.ttf-7a4e537d54c95c45f7c70c355308a3b2.fontdata::
+::res://Assets/Title Page/::1765941395
+play-text.png::CompressedTexture2D::1524231537452092150::1765936228::1765941395::1::::<><><>0<>0<>7a0a7a8a4e34c7386ee948270e36c730<>res://.godot/imported/play-text.png-1ea5aed8a45457b817f2a9df6129cf7a.ctex::
+title-screen.png::CompressedTexture2D::6534044929496184205::1765936228::1765941388::1::::<><><>0<>0<>38a7ce4028ed52f7aa618b4c00cb9b40<>res://.godot/imported/title-screen.png-5c762207cfcb1aa65a43d7e446dd3b7e.ctex::
+::res://Characters/::1765941395
 charles.dch::Resource/DialogicCharacter::8625821853629783721::1765940442::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::
-ellia.dch::Resource/DialogicCharacter::4320068416492059365::1765940442::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::res://Assets/ellia-confused.png<>res://Assets/ellia-happy.png<>res://Assets/ellia-shocked.png<>res://Assets/ellia-sigh.png<>res://Assets/ellia-teary.png<>res://Assets/ellia-worried.png
-mrs-williams.dch::Resource/DialogicCharacter::1306484431952469348::1765940442::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::res://Assets/mrs-williams-neutral.png
+ellia.dch::Resource/DialogicCharacter::4320068416492059365::1765941227::0::1::::<><><>0<>0<><>::res://Assets/Character Portraits/ellia-confused.png<>res://Assets/Character Portraits/ellia-happy.png<>res://Assets/Character Portraits/ellia-shocked.png<>res://Assets/Character Portraits/ellia-sigh.png<>res://Assets/Character Portraits/ellia-teary.png<>res://Assets/Character Portraits/ellia-worried.png
+mrs-williams.dch::Resource/DialogicCharacter::1306484431952469348::1765941395::0::1::::<><><>0<>0<><>::res://Assets/Character Portraits/mrs-williams-neutral.png
 ::res://images/::1765731775
 godotwaka2.png::CompressedTexture2D::7026850610005011835::1765666943::1765731775::1::::<><><>0<>0<>46217c9c5839b2c9f7217cd3af6b8860<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::
 godotwaka.png::CompressedTexture2D::7932361111412089001::1765666943::1765731774::1::::<><><>0<>0<>7360cc7c44aafc955def6087604c985e<>res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex::
 icon.jpg::CompressedTexture2D::3122668444336440389::1765666943::1765731774::1::::<><><>0<>0<>3d1d80fd4049890345f07c1608fe4e66<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
 ::res://novelRecovery/::1765666943
-::res://Styles/::1765851667
+::res://Styles/::1765940776
 dialogueBox.tres::StyleBoxTexture::952039023751161217::1765666942::0::1::::<><><>0<>0<><>::uid://bg2hd7166p0u8::::res://Assets/dialoguebox2.png
 nameBox.tres::StyleBoxTexture::1439109615614830776::1765666942::0::1::::<><><>0<>0<><>::uid://cb8p2d33hk58q::::res://Assets/nameBox.png
-newStyle.tres::Resource/DialogicStyle::5577269514704938135::1765851667::0::1::::<><><>0<>0<><>::uid://cqpb3ie51rwl5::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd
-::res://Timelines/::1765940315
+newStyle.tres::Resource/DialogicStyle::5577269514704938135::1765940776::0::1::::<><><>0<>0<><>::uid://cqpb3ie51rwl5::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd
+::res://Timelines/::1765940525
 day1a.dtl::Resource/DialogicTimeline::6936483288020648554::1765936228::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://b2sw5pmu8hjsv
 day1b.dtl::Resource/DialogicTimeline::6819514669931489944::1765936228::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::
-intro1.dtl::Resource/DialogicTimeline::3192441484576141606::1765936228::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://be48348wh831b<>uid://su4uwru0we7u<>uid://b2sw5pmu8hjsv
 intro.dtl::Resource/DialogicTimeline::3192441484576141606::1765936228::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://be48348wh831b<>uid://su4uwru0we7u<>uid://b2sw5pmu8hjsv

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0de1a0ovdk82"
-path="res://.godot/imported/title-screen.png-e7cb6c66d923d82ca71dbf81f3ed2ecb.ctex"
+uid="uid://ikm2t2apllny"
+path="res://.godot/imported/ellia-worried.png-4ca19ed71c90d8304463ed37d1cd27ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/title-screen.png"
-dest_files=["res://.godot/imported/title-screen.png-e7cb6c66d923d82ca71dbf81f3ed2ecb.ctex"]
+source_file="res://Assets/Character Portraits/ellia-worried.png"
+dest_files=["res://.godot/imported/ellia-worried.png-4ca19ed71c90d8304463ed37d1cd27ab.ctex"]
 
 [params]
 

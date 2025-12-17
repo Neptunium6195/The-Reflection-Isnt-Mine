@@ -19,7 +19,7 @@
 &"portraits": {
 "ellia-confused": {
 "export_overrides": {
-"image": "\"res://Assets/ellia-confused.png\""
+"image": "\"res://Assets/Character Portraits/ellia-confused.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -29,7 +29,7 @@
 },
 "ellia-happy": {
 "export_overrides": {
-"image": "\"res://Assets/ellia-happy.png\""
+"image": "\"res://Assets/Character Portraits/ellia-happy.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -39,7 +39,7 @@
 },
 "ellia-shocked": {
 "export_overrides": {
-"image": "\"res://Assets/ellia-shocked.png\""
+"image": "\"res://Assets/Character Portraits/ellia-shocked.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -49,7 +49,7 @@
 },
 "ellia-sigh": {
 "export_overrides": {
-"image": "\"res://Assets/ellia-sigh.png\""
+"image": "\"res://Assets/Character Portraits/ellia-sigh.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -59,7 +59,7 @@
 },
 "ellia-teary": {
 "export_overrides": {
-"image": "\"res://Assets/ellia-teary.png\""
+"image": "\"res://Assets/Character Portraits/ellia-teary.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -69,7 +69,7 @@
 },
 "ellia-worried": {
 "export_overrides": {
-"image": "\"res://Assets/ellia-worried.png\""
+"image": "\"res://Assets/Character Portraits/ellia-worried.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,

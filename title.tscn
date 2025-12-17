@@ -1,7 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://cq7igrn46iiu6"]
+[gd_scene load_steps=9 format=3 uid="uid://cq7igrn46iiu6"]
 
-[ext_resource type="Texture2D" uid="uid://be48348wh831b" path="res://Assets/IMG_0744.PNG" id="1_y7k74"]
+[ext_resource type="Texture2D" uid="uid://c0de1a0ovdk82" path="res://Assets/Title Page/title-screen.png" id="1_kpexm"]
+[ext_resource type="Texture2D" uid="uid://vyl4utejgljy" path="res://Assets/Title Page/play-text.png" id="2_3xoar"]
 [ext_resource type="Script" uid="uid://02i6utxovaps" path="res://start.gd" id="2_oyqm6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kpexm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3xoar"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_mom7w"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7lgly"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0824t"]
 
 [node name="Start" type="Control"]
 layout_mode = 3
@@ -17,36 +28,23 @@ anchor_bottom = 40.475002
 offset_bottom = -0.00012207031
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_y7k74")
+texture = ExtResource("1_kpexm")
 expand_mode = 3
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_right = 53.767002
-anchor_bottom = 40.459003
-offset_left = -4.0
-offset_top = -1.0
-offset_right = 8.319824
-offset_bottom = -3.3601074
-grow_horizontal = 2
-grow_vertical = 2
-alignment = 1
-
-[node name="Label" type="Label" parent="VBoxContainer"]
-layout_mode = 2
-size_flags_vertical = 1
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 20
-theme_override_font_sizes/font_size = 100
-text = "Untitled Game"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="Button" type="Button" parent="VBoxContainer"]
-layout_mode = 2
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1542.0
+offset_top = 969.0
+offset_right = 1945.0
+offset_bottom = 1098.0
+scale = Vector2(0.59, 0.59)
 theme_override_font_sizes/font_size = 50
-text = "Start"
+theme_override_styles/normal = SubResource("StyleBoxEmpty_kpexm")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_3xoar")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_mom7w")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_7lgly")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_0824t")
+icon = ExtResource("2_3xoar")
 script = ExtResource("2_oyqm6")
 
-[connection signal="pressed" from="VBoxContainer/Button" to="VBoxContainer/Button" method="_on_pressed"]
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vyl4utejgljy"
-path="res://.godot/imported/play-text.png-3e876f59a49556cb5d6183b8d24a5df0.ctex"
+uid="uid://dkklqgrp80mi6"
+path="res://.godot/imported/ellia-confused.png-639b2421475a9ee77882819a1ad03dd8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/play-text.png"
-dest_files=["res://.godot/imported/play-text.png-3e876f59a49556cb5d6183b8d24a5df0.ctex"]
+source_file="res://Assets/Character Portraits/ellia-confused.png"
+dest_files=["res://.godot/imported/ellia-confused.png-639b2421475a9ee77882819a1ad03dd8.ctex"]
 
 [params]
 

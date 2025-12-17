@@ -1,0 +1,23 @@
+# Godot 4+ specific ignores
+.godot/
+.nomedia
+
+#Godot-specific ignores
+.import/
+export.cfg
+export_credentials.cfg
+*.tmp
+
+#imported translations
+*.translation
+
+#Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+#OS-specific ignores
+.DS_Store
+Thumbs.db
+Dektop.ini
+

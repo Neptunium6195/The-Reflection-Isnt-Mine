@@ -1,7 +1,10 @@
-[gd_scene load_steps=18 format=3 uid="uid://dnwdxoy0i7w3r"]
+[gd_scene load_steps=21 format=3 uid="uid://dnwdxoy0i7w3r"]
 
 [ext_resource type="Texture2D" uid="uid://ddq8sxi2rcjkv" path="res://Assets/dinoCharactersVersion1/sheets/DinoSprites - tard.png" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://cv4b2ui1ulmp5" path="res://player_movement.gd" id="2_onrkg"]
+[ext_resource type="Texture2D" uid="uid://hhwwbn8jmxue" path="res://Assets/PortalSprites/back.png" id="2_sweqy"]
+[ext_resource type="Texture2D" uid="uid://ds5wqamw5l4rj" path="res://Assets/PortalSprites/elliaFront.png" id="3_2hs0m"]
+[ext_resource type="Texture2D" uid="uid://chb07d4lgl5tw" path="res://Assets/PortalSprites/elliaSide.png" id="4_1jxqw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
 atlas = ExtResource("1_4flbx")
@@ -56,7 +59,32 @@ atlas = ExtResource("1_4flbx")
 region = Rect2(240, 0, 24, 24)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_606se"]
+resource_local_to_scene = true
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_sweqy")
+}],
+"loop": true,
+"name": &"elliaBack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_2hs0m")
+}],
+"loop": true,
+"name": &"elliaNormal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_1jxqw")
+}],
+"loop": true,
+"name": &"elliaSide",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_onrkg")
@@ -113,23 +141,28 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_u1c27"]
-radius = 69.0
-height = 298.0
+radius = 12.0
+height = 54.0
 
 [node name="player" type="CharacterBody2D"]
+scale = Vector2(5, 5)
+disable_mode = 2
 motion_mode = 1
+safe_margin = 0.001
 script = ExtResource("2_onrkg")
+movement_speed = 400.0
 
 [node name="sprite" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(223, 262)
-scale = Vector2(17.583334, 21.833334)
+position = Vector2(216.4, 161)
+scale = Vector2(0.03, 0.036)
 sprite_frames = SubResource("SpriteFrames_606se")
-animation = &"idle"
-autoplay = "idle"
+animation = &"elliaNormal"
+autoplay = "elliaNormal"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(218, 254)
+position = Vector2(216.19998, 159.2)
 shape = SubResource("CapsuleShape2D_u1c27")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(217.79999, 160.4)

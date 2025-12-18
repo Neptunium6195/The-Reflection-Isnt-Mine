@@ -28,6 +28,7 @@ directories/dch_directory={
 "mrs-williams": "res://Characters/mrs-williams.dch"
 }
 directories/dtl_directory={
+"bookPuzzle": "res://Timelines/bookPuzzle.dtl",
 "day1a": "res://Timelines/day1a.dtl",
 "day1b": "res://Timelines/day1b.dtl",
 "day2a": "res://Timelines/day2a.dtl",

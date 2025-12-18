@@ -16,7 +16,7 @@ func _on_area_entered(area: Area2D) -> void:
 	get_parent().texture = texture
 	books.placedCorrectly += 1
 	print(books.placedCorrectly)
-		
+	
 	pass
 
 	

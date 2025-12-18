@@ -1,5 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://bebmyja5d86cm"]
+[gd_scene load_steps=4 format=3 uid="uid://bebmyja5d86cm"]
 
+[ext_resource type="Script" uid="uid://c7evn8e7p280y" path="res://player_modement.gd" id="1_2bkep"]
 [ext_resource type="Texture2D" uid="uid://d0uuh3ej4nueg" path="res://icon.svg" id="2_3cbam"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1bvp3"]
@@ -7,6 +8,7 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_2bkep")
 
 [node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
 position = Vector2(505.00006, 143.5)

@@ -1,15 +1,53 @@
-[gd_scene load_steps=2 format=3 uid="uid://4rbipc77hoym"]
+[gd_scene load_steps=8 format=3 uid="uid://4rbipc77hoym"]
 
+[ext_resource type="Script" uid="uid://b0h61v7lu780r" path="res://portal.gd" id="1_0hol4"]
 [ext_resource type="PackedScene" uid="uid://dnwdxoy0i7w3r" path="res://player.tscn" id="1_wtcfe"]
+[ext_resource type="PackedScene" uid="uid://c2m8bnk3asvij" path="res://CharlesPortal.tscn" id="2_epypp"]
+[ext_resource type="Script" uid="uid://byfr7hxtq81uj" path="res://charlesPortal.gd" id="3_epypp"]
+[ext_resource type="Script" uid="uid://dymrpf5ntxvlq" path="res://elliaCollision.gd" id="3_q6r6c"]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_epypp"]
+radius = 10.799988
+height = 67.599976
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0e48y"]
+radius = 450.0
+height = 1866.667
+
+[node name="portal" type="Node2D"]
+script = ExtResource("1_0hol4")
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -1028.0
-offset_top = -826.0
-offset_right = 1132.0
-offset_bottom = 801.0
+offset_left = -705.0
+offset_top = -501.0
+offset_right = 3139.0
+offset_bottom = 2323.0
 color = Color(0, 0.62782896, 0.19966345, 1)
 
 [node name="player" parent="." instance=ExtResource("1_wtcfe")]
-position = Vector2(-798, -597)
+
+[node name="Area2D" type="Area2D" parent="player"]
+disable_mode = 2
+script = ExtResource("3_q6r6c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player/Area2D"]
+position = Vector2(215.4, 158.4)
+shape = SubResource("CapsuleShape2D_epypp")
+
+[node name="Charles" parent="." instance=ExtResource("2_epypp")]
+position = Vector2(-2, 6)
+
+[node name="Area2D" type="Area2D" parent="Charles"]
+position = Vector2(748.99994, 801.99994)
+scale = Vector2(0.18, 0.18)
+disable_mode = 2
+script = ExtResource("3_epypp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Charles/Area2D"]
+position = Vector2(3472.2227, 172.22269)
+shape = SubResource("CapsuleShape2D_0e48y")
+
+[connection signal="area_entered" from="player/Area2D" to="player" method="_on_area_2d_area_entered"]
+[connection signal="area_entered" from="player/Area2D" to="player/Area2D" method="_on_area_entered"]
+[connection signal="area_entered" from="Charles/Area2D" to="player" method="_on_area_2d_area_entered"]
+[connection signal="area_entered" from="Charles/Area2D" to="Charles/Area2D" method="_on_area_entered"]

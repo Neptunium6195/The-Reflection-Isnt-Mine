@@ -15,14 +15,11 @@ func _physics_process(delta: float) -> void:
 
 	if character_direction:
 		velocity = character_direction * movement_speed
-		if sprite.animation != "elliaSide":
-			sprite.animation = "elliaSide"
+		if sprite.animation != "CharlesSide":
+			sprite.animation = "CharlesSide"
 	else:
 		velocity = velocity.move_toward(Vector2.ZERO, movement_speed)
-		if sprite.animation != "elliaNormal":
-			sprite.animation = "elliaNormal"
+		if sprite.animation != "CharlesFront":
+			sprite.animation = "CharlesFront"
 
-	move_and_slide() 
-
-func _on_area_2d_area_entered(area: Area2D) -> void:
-	pass # Replace with function body.
+	move_and_slide()

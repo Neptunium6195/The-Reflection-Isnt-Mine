@@ -8,18 +8,18 @@ ellia: This skirt is softer than any of the ones I have ever owned…
 [background fade="0.0"]
 ellia: First, sweep the floor.
 ellia: Next, wash the windows…
-ellia: What’s next again? Dust the paintings? 
+ellia: What’s next again? Dust the paintings?
 # entrance hall gallery wall image
 [background fade="0.0"]
 [wait time="2.5"]
 ellia: They are quite dazzling… though all of these portraits are taken inside the manor; does the family not like the outdoor scenery?
 # same bg js zoomed into charles' portrait
 [background fade="0.0"]
-[wait time="3"]
-ellia: Charles? What is he doing here? 
-ellia: This is recent… Was he brought here? 
+[wait time="3.0"]
+ellia: Charles? What is he doing here?
+ellia: This is recent… Was he brought here?
 ellia: This should not be here, he never mentioned anything about being acquainted with an upper class family.
-ellia: Did he anger them perhaps? Is he here now? 
+ellia: Did he anger them perhaps? Is he here now?
 ellia: Oh, what are they doing to him?
 # same bg js zoomed into portrait next to charles'
 [background fade="0.0"]
@@ -27,13 +27,13 @@ ellia: Oh, what are they doing to him?
 ellia: I must finish dusting.
 # back to charles' portrait that has changed
 [background fade="0.0"]
-[wait time="3"]
-ellia: I am certain it was not like that before. 
-ellia: Whoever placed this here must be trying to unsettle me. 
-ellia: Do they know about my relation to him? But what does it matter, I should not be of any importance to these people. 
-ellia: I have no money, no connections. 
+[wait time="3.0"]
+ellia: I am certain it was not like that before.
+ellia: Whoever placed this here must be trying to unsettle me.
+ellia: Do they know about my relation to him? But what does it matter, I should not be of any importance to these people.
+ellia: I have no money, no connections.
 ellia: Oh, what have they done to you, Charles?
-[wait time="3"] 
-ellia: I must find answers. 
+[wait time="3.0"]
+ellia: I must find answers.
 ellia: It cannot be a coincidence that I ended up here.
 ellia: He could be on the precipice of death, for all I know.

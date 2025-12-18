@@ -1,0 +1,28 @@
+# entrance hall bg
+[background fade="0.0"]
+join ellia center
+ellia: The housekeeper left a note mentioning the grandfather clock in the entrance hall needs to be fixed.
+leave 
+# insert panning of entrance hall 
+# find the clock hand puzzle
+# bg change: closeup of clock
+[background fade="0.0"]
+join ellia center
+ellia: Seems like the minute hand is missing.
+ellia: It should not have gone far. Must be here somewhere...
+leave ellia
+# pan of entrance hall
+join ellia center
+ellia: Found it. Now all I have to do is to reattach it.
+leave ellia
+# closeup of clock, player clicks on outline to put the hand back
+# clock going counterclockwise until it reaches the time 10:21
+join ellia center
+ellia: Strange. I barely touched it.
+ellia: It seems like it has a mind of its own. 10\:21? That must be the time before it broke.
+# inspecting the clock
+ellia: It's the strange symbol again...
+# works on it
+ellia: I am all done.
+ellia: What is next? Daily bedroom cleanups, alright.
+# goes to ludingtons bedroom

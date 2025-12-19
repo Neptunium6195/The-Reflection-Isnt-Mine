@@ -1,0 +1,134 @@
+# ellia's room
+ellia: The portraits are to be dusted again today.
+ellia: I have not been in the drawing room since the day before yesterday and I must see that picture of Charles again.
+ellia: I have to be certain it is him.
+ellia: Lady Ludington did not seem to know me, but she may simply be putting up a ruse.
+ellia: I cannot believe I have not thought about that until now.
+# drawing room
+# drawing room portraits?
+ellia: Where is it? I vividly recall it placed right here.
+[wait time="2.0"]
+ellia: Mrs. Williams? I had almost forgotten what she looked like.
+ellia: A portrait of a housekeeper? That is strange.
+ellia: Mrs. Williams seems to be a devoted member of the household; the Ludingtons must be appreciative towards the help.
+ellia: Though, Lady Ludington barely acknowledged me.
+ellia: Perhaps it is because I have not been here nearly as long as Mrs. Williams\: she looks as if she has worked here her whole life.
+[wait time="1.5"]
+ellia: Then, pray tell, why did Charles have a portrait?
+ellia: It is a shock to me that he worked here, even more so as a longtime servant.
+ellia: He told me he had solely labored in factories.
+ellia: He looked exactly the same as when I last saw him, yet a week is not nearly enough time to paint a portrait of such expertise.
+ellia: Where must this portrait be?
+ellia: It is imperative I examine it again.
+[wait time="1.5"]
+ellia: It does not make sense as to why Charles would have such an exquisite portrait of himself commissioned and the instance I see it, it is gone.
+ellia: There is much I do not know.
+ellia: Mayhaps the master saw it fit to change the subject, as Mrs. Williams is the newly esteemed member of the household.
+ellia: It appears they do not know about my relation to Charles.
+ellia: Or it is because they have been watching me secretly.
+[wait time="1.5"]
+ellia: Oh, what am I thinking?
+ellia: There is an assuredly reasonable explanation as to why Charles is here.
+ellia: It may not even be Charles after all, but someone who resembles him.
+# #sweeping (may be removed)
+ellia: The entrance hall is tidy, finally.
+# knock
+audio -
+ellia: A guest?
+ellia: Surely not this early.
+ellia: I am not even certain the mistress has woken up yet.
+ellia: Mrs. Williams should answer the door.
+[wait time="2.0"]
+# #knock again
+audio -
+ellia: It is rather impolite to keep a guest outside, especially in such darkness.
+ellia: I shall open the door; Mrs. Williams will understand.
+# #scene of mrs newington in doorway
+[wait time="3.0"]
+# change her name to guest or something
+join mrs-newington center
+mrs-newington: Good morning.
+mrs-newington: I should like a word with Lady Ludington, please.
+leave mrs-newington
+join ellia center
+ellia: Good morning, madam.
+ellia: I shall see if she is receiving guests at this moment.
+leave ellia
+[wait time="1.0"]
+join mrs-newington center
+mrs-newington: Do you not require my card?
+leave mrs-newington
+join ellia center
+ellia: My apologies, I shall take your card to the mistress.
+leave ellia
+# #stairs or morning room doors
+ellia: How could I forget the calling cards?
+# morning room 
+# knock
+audio -
+join ellia center
+ellia: Madam, there is a Mrs. Newington at the door.
+leave ellia
+join lady (lady-neutral) center
+[wait time="1.0"]
+lady: Thank you. Show her in here.
+leave lady
+# back to entrance hall
+join ellia center
+ellia: She shall receive you in the morning room.
+leave ellia
+join mrs-newington center
+mrs-newington: Thank you, dear.
+leave mrs-newington
+ellia: I can clean the bedchamber now.
+# ludington bedroom
+# #possible custcene of her cleaning
+[wait time="5.0"]
+ellia: The mistress should be done receiving her guest by now, it has been well over an hour.
+ellia: I shall tidy it again for her.
+# morning room
+ellia: I can still here them; it seems Lady Ludington is still occupied.
+ellia: I shall return later.
+# #silhouettes of characters
+join mrs-newington center
+mrs-newington: …ghosts living here.
+leave mrs-newington
+ellia: Ghosts? How absurd.
+join lady (lady-silhouette) center
+lady: Do you desire to see one?
+lady (lady-neutral): They are not merely ghosts, but reincarnations, I daresay.
+lady: My dear Lottie has resided here with me since the… accident.
+leave lady
+join mrs-newington center
+mrs-newington: You are not jesting, Navier?
+mrs-newington: You have been awfully unnatural today.
+mrs-newington: Is something the matter? You must know I consider you my closest companion.
+leave mrs-newington
+join lady center
+lady: As I do you, my dearest friend.
+lady: I am perfectly well at the moment, but lately I have been missing my children.
+lady: It was around this time of year when Lottie…
+leave lady
+join mrs-newington center
+mrs-newington: You shan’t say any more. I fear for your heart, truly.
+mrs-newington: I shall like to see Lottie again, then.
+leave mrs-newington
+join lady center
+lady: That warms my heart.
+lady: Come, look through this mirror. I see her here from time to time.
+leave lady
+ellia: Mirror?
+[wait time="2.5"]
+ellia: I shall not listen any longer.
+ellia: They may discover me lurking and they will expel me back to the wretched city!
+# to kitchen 
+ellia: I shall take my lunch and check later if Mrs. Newington has gone.
+[wait time="2.5"]
+ellia: The cook is not here today, either.
+ellia: Oddly enough, I may even be inclined to think that my meals are appearing out of thin air.
+[wait time="2.5"]
+ellia: Alright, I shall be on my way.
+# morning room
+ellia: Mrs. Newington has left already, I presume.
+ellia: Strange, I did not see her by the entrance hall.
+ellia: Lady Ludington must have shown her a different way.

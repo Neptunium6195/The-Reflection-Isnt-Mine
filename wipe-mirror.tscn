@@ -23,7 +23,6 @@ radius = 246.86937
 size = Vector2(237.14294, 184.13391)
 
 [node name="Node2D" type="Node2D"]
-position = Vector2(0, -1)
 
 [node name="TextureRect" type="TextureRect" parent="."]
 anchors_preset = 15

@@ -1,2 +1,12 @@
+<<<<<<< Updated upstream
 join ellia (ellia-confused) leftmost
+<<<<<<< HEAD
 ellia: What does it say?...
+=======
+ellia: What does it say?...
+[wait_input]
+=======
+join ellia (confused) leftmost
+ellia: What does it say?...
+>>>>>>> Stashed changes
+>>>>>>> 5afad04 (add day 4 dialogue)

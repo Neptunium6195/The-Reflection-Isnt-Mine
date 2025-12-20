@@ -69,7 +69,7 @@ audio -
 join ellia center
 ellia: Madam, there is a Mrs. Newington at the door.
 leave ellia
-join lady (lady-neutral) center
+join lady (neutral) center
 [wait time="1.0"]
 lady: Thank you. Show her in here.
 leave lady
@@ -94,12 +94,12 @@ join mrs-newington center
 mrs-newington: …ghosts living here.
 leave mrs-newington
 ellia: Ghosts? How absurd.
-join lady (lady-silhouette) center
+join lady (silhouette) center
 lady: Do you desire to see one?
-lady (lady-neutral): They are not merely ghosts, but reincarnations, I daresay.
+lady (neutral): They are not merely ghosts, but reincarnations, I daresay.
 lady: My dear Lottie has resided here with me since the… accident.
 leave lady
-join mrs-newington center
+join mrs-newington (silhouette) center
 mrs-newington: You are not jesting, Navier?
 mrs-newington: You have been awfully unnatural today.
 mrs-newington: Is something the matter? You must know I consider you my closest companion.
@@ -109,11 +109,11 @@ lady: As I do you, my dearest friend.
 lady: I am perfectly well at the moment, but lately I have been missing my children.
 lady: It was around this time of year when Lottie…
 leave lady
-join mrs-newington center
+join mrs-newington (silhouette) center
 mrs-newington: You shan’t say any more. I fear for your heart, truly.
 mrs-newington: I shall like to see Lottie again, then.
 leave mrs-newington
-join lady center
+join lady (silhouette) center
 lady: That warms my heart.
 lady: Come, look through this mirror. I see her here from time to time.
 leave lady

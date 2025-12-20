@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgoqvbrj1t36p"
-path="res://.godot/imported/lady-silhouette.png-6796e1985cd0a78205f4e89317661680.ctex"
+uid="uid://dpijcll3kooos"
+path="res://.godot/imported/charles-relief.png-4e26589c65592ba172aabba0031602a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/lady-silhouette.png"
-dest_files=["res://.godot/imported/lady-silhouette.png-6796e1985cd0a78205f4e89317661680.ctex"]
+source_file="res://Assets/Character Portraits/Charles/charles-relief.png"
+dest_files=["res://.godot/imported/charles-relief.png-4e26589c65592ba172aabba0031602a1.ctex"]
 
 [params]
 

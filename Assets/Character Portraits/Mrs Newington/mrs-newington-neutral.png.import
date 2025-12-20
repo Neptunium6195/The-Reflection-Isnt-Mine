@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://oup7f3djq22k"
-path="res://.godot/imported/lady-smile.png-d0756fc03535f50b69a3ad8f60428818.ctex"
+uid="uid://bue8pp57ypq8h"
+path="res://.godot/imported/mrs-newington-neutral.png-0b3ee76cd447ee2d774de4d227162bfe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/lady-smile.png"
-dest_files=["res://.godot/imported/lady-smile.png-d0756fc03535f50b69a3ad8f60428818.ctex"]
+source_file="res://Assets/Character Portraits/Mrs Newington/mrs-newington-neutral.png"
+dest_files=["res://.godot/imported/mrs-newington-neutral.png-0b3ee76cd447ee2d774de4d227162bfe.ctex"]
 
 [params]
 

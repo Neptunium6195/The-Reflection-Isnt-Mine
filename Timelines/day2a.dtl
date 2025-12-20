@@ -1,6 +1,5 @@
 # ellia standing in front of mirror in her room
 [background fade="0.0"]
-join ellia center
 ellia: Hopefully today's list is not as long as yesterday's... I was completely worn out.
 ellia: It was so dark too, as if the sun was hidden by a large blot of ink.
 ellia: I shall find out more about this family and what use Charles has for them.
@@ -23,11 +22,12 @@ leave ellia
 # ellia looks back
 join ellia center
 [wait time="1.5"]
-ellia: What is going on??
+ellia: What is going on?
 Reflection: Your face fits me...
-update ellia (ellia-worried) center
+update ellia (worried) center
 ellia: Hello? Who said that? What is happening?
 # bg change: mirror surface ripples, ellia's reflection blinks
+leave ellia
 [background fade="0.0"]
 [wait time="2.5"]
 ellia: I don't like this. I should begin my work and clear my mind.

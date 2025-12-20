@@ -26,8 +26,8 @@ audio -
 [wait time="5.0"]
 # back to hallway bg
 [background fade="0.0"]
-join ellia (ellia-happy) center
-ellia (ellia-happy): Woah.
+join ellia (happy) center
+ellia (happy): Woah.
 leave ellia
 join mrs-williams center
 mrs-williams: Enchanting, aren’t they?

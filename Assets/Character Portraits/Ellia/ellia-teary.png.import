@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr2nri46k3owk"
-path="res://.godot/imported/ellia-teary.png-351292ab6ace6cb0dedeb1196832f902.ctex"
+path="res://.godot/imported/ellia-teary.png-da9ec339b17a7856625bddcf6b043745.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/ellia-teary.png"
-dest_files=["res://.godot/imported/ellia-teary.png-351292ab6ace6cb0dedeb1196832f902.ctex"]
+source_file="res://Assets/Character Portraits/Ellia/ellia-teary.png"
+dest_files=["res://.godot/imported/ellia-teary.png-da9ec339b17a7856625bddcf6b043745.ctex"]
 
 [params]
 

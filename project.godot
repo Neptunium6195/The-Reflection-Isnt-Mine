@@ -26,7 +26,8 @@ directories/dch_directory={
 "ellia": "res://Characters/ellia.dch",
 "lady": "res://Characters/lady.dch",
 "mrs-newington": "res://Characters/mrs-newington.dch",
-"mrs-williams": "res://Characters/mrs-williams.dch"
+"mrs-williams": "res://Characters/mrs-williams.dch",
+"unknown": "res://Characters/unknown.dch"
 }
 directories/dtl_directory={
 "bookPuzzle": "res://Timelines/bookPuzzle.dtl",
@@ -39,6 +40,10 @@ directories/dtl_directory={
 "day2e": "res://Timelines/day2e.dtl",
 "day3a": "res://Timelines/day3a.dtl",
 "day3b": "res://Timelines/day3b.dtl",
+"day4a": "res://Timelines/day4a.dtl",
+"day4b": "res://Timelines/day4b.dtl",
+"day4c": "res://Timelines/day4c.dtl",
+"day4d": "res://Timelines/day4d.dtl",
 "elliaCharlesMeet": "res://Timelines/elliaCharlesMeet.dtl",
 "intro": "res://Timelines/intro.dtl"
 }

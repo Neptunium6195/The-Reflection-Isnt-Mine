@@ -1,6 +1,5 @@
 # ludingtons room bg
 [background fade="0.0"]
-join ellia center
 ellia: I wonder if the masters know that they have a new maid. 
 ellia: They must be people of importance and think very little of servants.
 ellia: I must say, I feel as if I am always being watched here...
@@ -15,7 +14,7 @@ ellia: It must the oaks that are blocking the sun...
 audio -
 # boudoir door
 [background fade="0.0"]
-join lady (lady-silhouette) center
+join lady (silhouette) center
 lady: Please have the tea tray brought in.
 leave lady 
 join ellia center 
@@ -35,7 +34,7 @@ ellia: Lady Ludington must take tea often at this time.
 join ellia
 ellia: The tea, ma’am.
 leave ellia 
-join lady (lady-silhouette) center
+join lady (silhouette) center
 lady: Bring it in.
 leave lady 
 # image of the tea tray set up

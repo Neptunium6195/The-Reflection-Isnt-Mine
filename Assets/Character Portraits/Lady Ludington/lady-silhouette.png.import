@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpqfbgc727p1j"
-path="res://.godot/imported/lady-worried.png-0d13a014f655476dbc59fe9018fbb5d6.ctex"
+uid="uid://dgoqvbrj1t36p"
+path="res://.godot/imported/lady-silhouette.png-51a5e9a82d5f3b6c1990f3eaeb6f2976.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/lady-worried.png"
-dest_files=["res://.godot/imported/lady-worried.png-0d13a014f655476dbc59fe9018fbb5d6.ctex"]
+source_file="res://Assets/Character Portraits/Lady Ludington/lady-silhouette.png"
+dest_files=["res://.godot/imported/lady-silhouette.png-51a5e9a82d5f3b6c1990f3eaeb6f2976.ctex"]
 
 [params]
 

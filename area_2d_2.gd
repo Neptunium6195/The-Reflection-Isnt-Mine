@@ -14,4 +14,5 @@ func _on_area_entered(area: Area2D) -> void:
 	get_parent().visible = false
 	set_deferred("monitoring", false)
 	set_deferred("monitorable", false)
+	print(node_2d.dustLeft)
 	pass

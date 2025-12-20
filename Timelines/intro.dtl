@@ -81,4 +81,3 @@ audio -
 ellia: Such an old manor.
 ellia: The creaking is a bit unsettling…
 ellia: It feels like there’s someone right at my door.
-do Dialogic.handle_next_event("res://sweeping.tscn")

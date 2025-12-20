@@ -13,7 +13,6 @@ func _process(delta: float) -> void:
 
 func start_dialog() -> void:
 	Dialogic.start("res://Timelines/bookPuzzle.dtl")
-	await Dialogic.timeline_ended
 
 func _on_dialog_finished(_timeline_name: String) -> void:
 	pass

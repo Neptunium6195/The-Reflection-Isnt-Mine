@@ -10,8 +10,13 @@ func _process(delta: float) -> void:
 	pass
 
 func _on_area_entered(area: Area2D) -> void:
-	node_2d.dustLeft -= 1
+	node_2d.stainLeft -= 1
 	get_parent().visible = false
 	set_deferred("monitoring", false)
 	set_deferred("monitorable", false)
 	pass
+	
+
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	pass # Replace with function body.

@@ -9,9 +9,14 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
+
 func _on_area_entered(area: Area2D) -> void:
-	node_2d.dustLeft -= 1
+	print("hi")
+	print("gyft:")
+	print("Parent:", get_parent())
 	get_parent().visible = false
+	print("Entered:", self)
+
 	set_deferred("monitoring", false)
 	set_deferred("monitorable", false)
-	pass
+	pass # Replace with function body.

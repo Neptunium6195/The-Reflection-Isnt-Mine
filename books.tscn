@@ -13,10 +13,10 @@
 [ext_resource type="Script" uid="uid://00sy1gporcqp" path="res://book4.gd" id="12_j6piu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d8hb3"]
-size = Vector2(176.74788, 20.732439)
+size = Vector2(124.30558, 20.732439)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n7s3d"]
-size = Vector2(243.9939, 71.37677)
+size = Vector2(157.01575, 71.37677)
 
 [sub_resource type="LabelSettings" id="LabelSettings_rv1at"]
 font_size = 57
@@ -62,8 +62,8 @@ position = Vector2(701.58154, 905.8892)
 scale = Vector2(0.44581506, 0.51181036)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
-position = Vector2(280.4535, -1060.2043)
-scale = Vector2(1.0000001, 1)
+position = Vector2(375.5334, -1060.7234)
+scale = Vector2(1.0000004, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
 [node name="broom2" type="Sprite2D" parent="."]
@@ -103,7 +103,7 @@ collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
-position = Vector2(1167.3416, -1090.031)
+position = Vector2(864.5254, -1066.585)
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
@@ -114,7 +114,7 @@ collision_layer = 4
 collision_mask = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
-position = Vector2(1562.1239, -1076.3541)
+position = Vector2(1075.3752, -1062.6772)
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
@@ -125,7 +125,7 @@ collision_layer = 8
 collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5"]
-position = Vector2(738.9127, -1070.4927)
+position = Vector2(651.4325, -1064.6311)
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
@@ -173,7 +173,7 @@ collision_mask = 8
 script = ExtResource("12_j6piu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="broom4/Area2D"]
-position = Vector2(1002.0601, 369.03082)
+position = Vector2(1001.8944, 368.4047)
 scale = Vector2(0.038716815, 0.44710633)
 shape = SubResource("RectangleShape2D_d8hb3")
 

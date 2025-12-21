@@ -23,7 +23,7 @@ leave --All--
 [background fade="0.0"]
 # for vibes
 audio -
-[wait time="5.0"]
+[wait time="4.0"]
 # back to hallway bg
 [background fade="0.0"]
 join ellia (happy) center
@@ -43,6 +43,8 @@ mrs-williams: The children… best not to wonder too much. There is much to be d
 leave mrs-williams
 # change to entrance hall
 [background fade="0.0"]
+[wait time="0.6"]
+[background arg="res://Assets/closeddoor.png" fade="0.0"]
 join mrs-williams center
 mrs-williams: You are to begin at 5 o’clock every morning.
 mrs-williams: Your list of tasks will be posted at your door. I am sure you know the master’s bedchamber must be cleaned twice a day, the others once every other day.
@@ -68,7 +70,7 @@ leave mrs-williams
 [background fade="0.0"]
 [wait time="5.0"]
 # another part of bedroom?
-[background fade="0.0"]
+[background arg="res://Assets/room.png" fade="0.0"]
 # thoughts
 [style]
 ellia: It watches? What is that supposed to mean? There [i]are[/i] a lot of portraits here.
@@ -81,3 +83,13 @@ audio -
 ellia: Such an old manor.
 ellia: The creaking is a bit unsettling…
 ellia: It feels like there’s someone right at my door.
+ellia: zzzz...
+[background fade="0.0"]
+[wait time="3.5"]
+join ellia (shocked) left
+ellia (shocked): charles-
+leave ellia
+[background fade="0.0"]
+ellia: Oh, it was just a dream...
+ellia: Everything is fine now
+ellia: Charles, where could you be?

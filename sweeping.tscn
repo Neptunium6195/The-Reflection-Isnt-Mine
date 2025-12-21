@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=3 uid="uid://bu286yrshtvir"]
 
 [ext_resource type="Script" uid="uid://64iw63t84nme" path="res://sweepingy.gd" id="1_t6a35"]
-[ext_resource type="Texture2D" uid="uid://bow7dgw111tgw" path="res://Assets/floor.jpeg" id="1_v6up3"]
 [ext_resource type="Texture2D" uid="uid://dh70jfoq6ps77" path="res://Assets/dust.png" id="2_7upy8"]
+[ext_resource type="Texture2D" uid="uid://v5w7dxl4k3hs" path="res://Assets/floor.PNG" id="2_t6a35"]
 [ext_resource type="Script" uid="uid://yp3w2muikvqp" path="res://broom.gd" id="4_7upy8"]
 [ext_resource type="Texture2D" uid="uid://dks7t8hvfjyd5" path="res://Assets/broom.png" id="4_jjaou"]
 [ext_resource type="Texture2D" uid="uid://diu5arl57dcor" path="res://Assets/dust2.png" id="4_t6a35"]
@@ -19,10 +19,10 @@ size = Vector2(12.348141, 37.97705)
 script = ExtResource("1_t6a35")
 
 [node name="TextureRect" type="TextureRect" parent="."]
-offset_left = -22.0
-offset_right = 2132.0
-offset_bottom = 1611.0
-texture = ExtResource("1_v6up3")
+offset_left = 5.0
+offset_right = 2165.0
+offset_bottom = 1620.0
+texture = ExtResource("2_t6a35")
 
 [node name="Sprite2D4" type="Sprite2D" parent="."]
 position = Vector2(987, 1147)

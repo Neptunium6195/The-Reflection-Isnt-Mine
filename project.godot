@@ -22,7 +22,6 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"Reflection": "res://Assets/Reflection.dch",
 "charles": "res://Characters/charles.dch",
 "ellia": "res://Characters/ellia.dch",
 "lady": "res://Characters/lady.dch",

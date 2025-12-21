@@ -16,4 +16,8 @@ func _on_pressed() -> void:
 	Dialogic.Styles.load_style("newStyle")
 	Dialogic.start_timeline("res://Timelines/intro.dtl")
 	await Dialogic.timeline_ended
+	Dialogic.start_timeline("res://Timelines/day1a.dtl")
+	await Dialogic.timeline_ended
+	Dialogic.start_timeline("res://Timelines/day1b.dtl")
+	await Dialogic.timeline_ended
 	get_tree().change_scene_to_file("res://sweeping.tscn")

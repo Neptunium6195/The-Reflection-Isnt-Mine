@@ -78,7 +78,7 @@ grow_horizontal = 2
 grow_vertical = 2
 rotation = -0.38586998
 scale = Vector2(1.0112691, 1.2602106)
-color = Color(1, 1, 1, 0.0627451)
+color = Color(1, 1, 1, 0.08627451)
 
 [node name="ColorRect2" type="ColorRect" parent="."]
 layout_mode = 1

@@ -22,7 +22,6 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"Reflection": "res://Assets/Reflection.dch",
 "charles": "res://Characters/charles.dch",
 "ellia": "res://Characters/ellia.dch",
 "lady": "res://Characters/lady.dch",
@@ -95,6 +94,7 @@ animations/join_default="Fade In Up"
 
 window/size/viewport_width=2160
 window/size/viewport_height=1620
+window/size/mode=1
 window/stretch/mode="viewport"
 window/stretch/aspect="keep_height"
 

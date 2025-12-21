@@ -4,11 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://cmiq21v8pk52u" path="res://Assets/mirror-mockup.png" id="1_u2e8d"]
 [ext_resource type="Texture2D" uid="uid://bubchmchcuq2x" path="res://Assets/stain-mockup.png" id="2_4lme1"]
 [ext_resource type="Script" uid="uid://ema5n64yfw1a" path="res://wipe.gd" id="3_55b53"]
-[ext_resource type="Texture2D" uid="uid://dhkp8ectrefy6" path="res://Assets/cloth-mockup.png" id="3_pphqo"]
+[ext_resource type="Texture2D" uid="uid://dn0v0c04vsdha" path="res://Assets/cloth.png" id="5_55b53"]
 [ext_resource type="Script" uid="uid://br2idb1u868qb" path="res://cloth.gd" id="6_55b53"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_pphqo"]
-radius = 246.86937
+radius = 106.71886
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_c0hv2"]
 
@@ -20,8 +20,9 @@ radius = 246.86937
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5qams"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_1cbr8"]
-size = Vector2(237.14294, 184.13391)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_x5kf5"]
+radius = 160.0
+height = 691.3584
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_55b53")
@@ -192,8 +193,8 @@ shape = SubResource("CircleShape2D_pphqo")
 
 [node name="cloth" type="Sprite2D" parent="."]
 position = Vector2(1801, 1279)
-scale = Vector2(0.78400016, 0.7619999)
-texture = ExtResource("3_pphqo")
+scale = Vector2(0.25, 0.243)
+texture = ExtResource("5_55b53")
 script = ExtResource("6_55b53")
 
 [node name="Button" type="Button" parent="cloth"]
@@ -212,8 +213,8 @@ position = Vector2(-35.71428, -149.60632)
 disable_mode = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="cloth/Area2D"]
-position = Vector2(-1.2755661, -4.5776367e-05)
-shape = SubResource("RectangleShape2D_1cbr8")
+position = Vector2(-24.285645, 141.37582)
+shape = SubResource("CapsuleShape2D_x5kf5")
 
 [connection signal="area_entered" from="stain/Area2D" to="stain/Area2D" method="_on_area_entered"]
 [connection signal="area_entered" from="stain2/Area2D" to="stain2/Area2D" method="_on_area_entered"]

@@ -8,11 +8,17 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if placedCorrectly == 3:
+	if placedCorrectly == 4:
 		start_dialog()
 
 func start_dialog() -> void:
 	Dialogic.start("res://Timelines/bookPuzzle.dtl")
+<<<<<<< Updated upstream
+=======
+	await Dialogic.timeline_ended
+	get_tree().change_scene_to_file("res://story.tscn")
+	Dialogic.start("res://Timelines/day1b.dtl")
+>>>>>>> Stashed changes
 
 func _on_dialog_finished(_timeline_name: String) -> void:
 	pass

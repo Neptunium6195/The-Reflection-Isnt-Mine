@@ -10,7 +10,7 @@ func _process(delta: float) -> void:
 	pass
 
 func _on_area_entered(area: Area2D) -> void:
-	var texture = load('res://Assets/book2.jpg')
+	var texture = load('res://Assets/book4b.png')
 	var label1 = get_node("../../label1")
 	bookDrag.dragging = false
 	get_parent().texture = texture

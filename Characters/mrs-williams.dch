@@ -10,14 +10,14 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "mrs-williams-neutral",
+&"default_portrait": "neutral",
 &"description": "",
 &"display_name": "Mrs. Williams",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"mrs-williams-neutral": {
+"neutral": {
 "export_overrides": {
 "image": "\"res://Assets/Character Portraits/mrs-williams-neutral.png\""
 },

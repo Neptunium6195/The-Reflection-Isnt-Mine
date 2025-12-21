@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7u41lrbpr1ah"
-path="res://.godot/imported/lady-neutral.png-d9100ad910d458f31761f67ba1b27ed3.ctex"
+uid="uid://bb8r1dae2v845"
+path="res://.godot/imported/book2b.png-4e8c0322e883e228d8b23ebdf5535b7c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/lady-neutral.png"
-dest_files=["res://.godot/imported/lady-neutral.png-d9100ad910d458f31761f67ba1b27ed3.ctex"]
+source_file="res://Assets/book2b.png"
+dest_files=["res://.godot/imported/book2b.png-4e8c0322e883e228d8b23ebdf5535b7c.ctex"]
 
 [params]
 

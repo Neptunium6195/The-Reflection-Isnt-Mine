@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://oup7f3djq22k"
-path="res://.godot/imported/lady-smile.png-d0756fc03535f50b69a3ad8f60428818.ctex"
+uid="uid://dabwystnncsg2"
+path="res://.godot/imported/book3b.png-e16a275c873b1c1e93fc6de955273312.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/lady-smile.png"
-dest_files=["res://.godot/imported/lady-smile.png-d0756fc03535f50b69a3ad8f60428818.ctex"]
+source_file="res://Assets/book3b.png"
+dest_files=["res://.godot/imported/book3b.png-e16a275c873b1c1e93fc6de955273312.ctex"]
 
 [params]
 

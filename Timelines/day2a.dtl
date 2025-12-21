@@ -24,12 +24,13 @@ update ellia center [mirrored="true"]
 join ellia center
 leave 
 [wait time="1.5"]
-ellia: What is going on??
-Your face fits me...
-join ellia (ellia-worried) center
+ellia: What is going on?
+Reflection: Your face fits me...
+update ellia (worried) center
 ellia: Hello? Who said that? What is happening?
 leave ellia
 # bg change: mirror surface ripples, ellia's reflection blinks
+leave ellia
 [background fade="0.0"]
 [wait time="2.5"]
 ellia: I don't like this. I should begin my work and clear my mind.

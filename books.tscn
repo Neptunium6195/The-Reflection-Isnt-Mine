@@ -1,14 +1,19 @@
-[gd_scene load_steps=10 format=3 uid="uid://rut3dw5t8qgc"]
+[gd_scene load_steps=15 format=3 uid="uid://rut3dw5t8qgc"]
 
 [ext_resource type="Texture2D" uid="uid://lxyqcggmp8pa" path="res://Assets/book.jpg" id="1_drp12"]
 [ext_resource type="Script" uid="uid://diy88girx8b50" path="res://books.gd" id="1_n7s3d"]
-[ext_resource type="Texture2D" uid="uid://bpsykbavxktq" path="res://Assets/book1.jpg" id="2_rv1at"]
+[ext_resource type="Texture2D" uid="uid://cpljyx5ou7jn4" path="res://Assets/book4a.png" id="3_d8hb3"]
 [ext_resource type="Script" uid="uid://yp3w2muikvqp" path="res://broom.gd" id="3_n7s3d"]
-[ext_resource type="Script" uid="uid://besjff72cd7qu" path="res://area_2d.gd" id="4_863wg"]
-[ext_resource type="Script" uid="uid://guku43cdk8sb" path="res://collision_shape_2d.gd" id="6_n7s3d"]
+[ext_resource type="Script" uid="uid://besjff72cd7qu" path="res://book2.gd" id="4_863wg"]
+[ext_resource type="Script" uid="uid://bjkla7odd5k62" path="res://book1.gd" id="5_ljxne"]
+[ext_resource type="Texture2D" uid="uid://cmdkfj72c1bg0" path="res://Assets/book2a.png" id="6_3xfbb"]
+[ext_resource type="Texture2D" uid="uid://bgg62s00xoije" path="res://Assets/book1a.png" id="7_863wg"]
+[ext_resource type="Texture2D" uid="uid://dabwystnncsg2" path="res://Assets/book3b.png" id="9_ljxne"]
+[ext_resource type="Script" uid="uid://dcigq6siajxq1" path="res://book3.gd" id="10_md7fo"]
+[ext_resource type="Script" uid="uid://00sy1gporcqp" path="res://book4.gd" id="12_j6piu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d8hb3"]
-size = Vector2(72, 18.74459)
+size = Vector2(176.74788, 20.732439)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n7s3d"]
 size = Vector2(243.9939, 71.37677)
@@ -25,19 +30,19 @@ offset_bottom = 1622.0
 texture = ExtResource("1_drp12")
 
 [node name="broom" type="Sprite2D" parent="."]
-position = Vector2(1597, 542)
-scale = Vector2(0.54849696, 0.479193)
-texture = ExtResource("2_rv1at")
+position = Vector2(1447.4844, 545)
+scale = Vector2(0.24515963, 0.21967475)
+texture = ExtResource("7_863wg")
 script = ExtResource("3_n7s3d")
 
 [node name="Area2D" type="Area2D" parent="broom"]
 position = Vector2(-47183.875, -5834.1147)
 scale = Vector2(47.0897, 17.679136)
-script = ExtResource("4_863wg")
+script = ExtResource("5_ljxne")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="broom/Area2D"]
-position = Vector2(1002.0076, 348.59122)
-scale = Vector2(0.038716815, 0.4471064)
+position = Vector2(1002.0879, 364.5035)
+scale = Vector2(0.038716804, 0.4471064)
 shape = SubResource("RectangleShape2D_d8hb3")
 
 [node name="Button" type="Button" parent="broom"]
@@ -45,10 +50,10 @@ self_modulate = Color(1, 1, 1, 0)
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -65.63379
-offset_top = -394.4131
-offset_right = -66.36597
-offset_bottom = -388.1527
+offset_left = -243.18604
+offset_top = -682.8276
+offset_right = -291.71094
+offset_bottom = -676.7547
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -62,9 +67,9 @@ scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
 [node name="broom2" type="Sprite2D" parent="."]
-position = Vector2(1756.9999, 555)
-scale = Vector2(0.54849696, 0.479193)
-texture = ExtResource("2_rv1at")
+position = Vector2(1336.1044, 581.35535)
+scale = Vector2(0.22418132, 0.19899431)
+texture = ExtResource("6_3xfbb")
 script = ExtResource("3_n7s3d")
 
 [node name="Area2D" type="Area2D" parent="broom2"]
@@ -75,20 +80,19 @@ collision_mask = 2
 script = ExtResource("4_863wg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="broom2/Area2D"]
-position = Vector2(1002.0076, 348.59122)
+position = Vector2(1001.9158, 365.6543)
 scale = Vector2(0.038716815, 0.4471064)
 shape = SubResource("RectangleShape2D_d8hb3")
-script = ExtResource("6_n7s3d")
 
 [node name="Button" type="Button" parent="broom2"]
 self_modulate = Color(1, 1, 1, 0)
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -60.164093
-offset_top = -398.5868
-offset_right = -60.89627
-offset_bottom = -392.32642
+offset_left = -161.0498
+offset_top = -790.753
+offset_right = -161.78198
+offset_bottom = -784.4926
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -99,7 +103,7 @@ collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
-position = Vector2(570.6816, -1066.5848)
+position = Vector2(1167.3416, -1090.031)
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
@@ -110,14 +114,25 @@ collision_layer = 4
 collision_mask = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
-position = Vector2(900.4147, -1062.6772)
+position = Vector2(1562.1239, -1076.3541)
+scale = Vector2(1.0000001, 1)
+shape = SubResource("RectangleShape2D_n7s3d")
+
+[node name="Area2D5" type="Area2D" parent="."]
+position = Vector2(701.58154, 905.8892)
+scale = Vector2(0.44581506, 0.51181036)
+collision_layer = 8
+collision_mask = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5"]
+position = Vector2(738.9127, -1070.4927)
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
 [node name="broom3" type="Sprite2D" parent="."]
-position = Vector2(1383, 542)
-scale = Vector2(0.54849696, 0.479193)
-texture = ExtResource("2_rv1at")
+position = Vector2(1169.7666, 544.0596)
+scale = Vector2(0.21660134, 0.2593977)
+texture = ExtResource("9_ljxne")
 script = ExtResource("3_n7s3d")
 
 [node name="Area2D" type="Area2D" parent="broom3"]
@@ -125,22 +140,52 @@ position = Vector2(-47183.875, -5834.1147)
 scale = Vector2(47.0897, 17.679136)
 collision_layer = 4
 collision_mask = 4
-script = ExtResource("4_863wg")
+script = ExtResource("10_md7fo")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="broom3/Area2D"]
-position = Vector2(1002.0076, 348.59122)
+position = Vector2(1001.7287, 358.11652)
 scale = Vector2(0.038716815, 0.4471064)
 shape = SubResource("RectangleShape2D_d8hb3")
 
 [node name="Button" type="Button" parent="broom3"]
 self_modulate = Color(1, 1, 1, 0)
-anchors_preset = 15
-anchor_right = 1.0
+anchors_preset = -1
+anchor_right = 1.126
 anchor_bottom = 1.0
-offset_left = -63.810852
-offset_top = -381.89203
-offset_right = -64.54303
-offset_bottom = -375.63165
+offset_left = -95.87494
+offset_top = -586.2025
+offset_right = -143.26068
+offset_bottom = -577.6095
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="broom4" type="Sprite2D" parent="."]
+position = Vector2(861.6284, 593.32776)
+scale = Vector2(0.32734838, 0.1806759)
+texture = ExtResource("3_d8hb3")
+script = ExtResource("3_n7s3d")
+
+[node name="Area2D" type="Area2D" parent="broom4"]
+position = Vector2(-47183.875, -5834.1147)
+scale = Vector2(47.0897, 17.679136)
+collision_layer = 8
+collision_mask = 8
+script = ExtResource("12_j6piu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="broom4/Area2D"]
+position = Vector2(1002.0601, 369.03082)
+scale = Vector2(0.038716815, 0.44710633)
+shape = SubResource("RectangleShape2D_d8hb3")
+
+[node name="Button" type="Button" parent="broom4"]
+self_modulate = Color(1, 1, 1, 0)
+anchors_preset = -1
+anchor_right = 1.126
+anchor_bottom = 1.0
+offset_left = -114.9491
+offset_top = -743.47363
+offset_right = -162.3349
+offset_bottom = -734.8806
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -178,8 +223,14 @@ color = Color(0, 0, 0, 0.70980394)
 [connection signal="button_up" from="broom2/Button" to="broom2" method="_on_button_button_up"]
 [connection signal="area_entered" from="Area2D3" to="Area2D3" method="_on_area_entered"]
 [connection signal="area_entered" from="Area2D4" to="Area2D4" method="_on_area_entered"]
+[connection signal="area_entered" from="Area2D5" to="Area2D5" method="_on_area_entered"]
 [connection signal="area_entered" from="broom3/Area2D" to="broom3/Area2D" method="_on_area_entered"]
 [connection signal="body_entered" from="broom3/Area2D" to="broom3/Area2D" method="_on_body_entered"]
 [connection signal="body_shape_entered" from="broom3/Area2D" to="broom3/Area2D" method="_on_body_shape_entered"]
 [connection signal="button_down" from="broom3/Button" to="broom3" method="_on_button_button_down"]
 [connection signal="button_up" from="broom3/Button" to="broom3" method="_on_button_button_up"]
+[connection signal="area_entered" from="broom4/Area2D" to="broom4/Area2D" method="_on_area_entered"]
+[connection signal="body_entered" from="broom4/Area2D" to="broom4/Area2D" method="_on_body_entered"]
+[connection signal="body_shape_entered" from="broom4/Area2D" to="broom4/Area2D" method="_on_body_shape_entered"]
+[connection signal="button_down" from="broom4/Button" to="broom4" method="_on_button_button_down"]
+[connection signal="button_up" from="broom4/Button" to="broom4" method="_on_button_button_up"]

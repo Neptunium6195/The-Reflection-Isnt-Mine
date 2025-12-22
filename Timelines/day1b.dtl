@@ -40,7 +40,7 @@ ellia: Oh my, it is already time to tidy the rooms.
 [wait time="1.5"]
 # knock sound
 audio -
-[wait time="2"]
+[wait time="2.0"]
 ellia: I do not hear anything. I guess it is empty.
 # pan of bedroom
 [background fade="0.0"]

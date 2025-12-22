@@ -1,7 +1,7 @@
 [gd_scene load_steps=15 format=3 uid="uid://rut3dw5t8qgc"]
 
-[ext_resource type="Texture2D" uid="uid://lxyqcggmp8pa" path="res://Assets/book.jpg" id="1_drp12"]
 [ext_resource type="Script" uid="uid://diy88girx8b50" path="res://books.gd" id="1_n7s3d"]
+[ext_resource type="Texture2D" uid="uid://dugn2cdotn6wd" path="res://Assets/bg3.png" id="2_euvyn"]
 [ext_resource type="Texture2D" uid="uid://cpljyx5ou7jn4" path="res://Assets/book4a.png" id="3_d8hb3"]
 [ext_resource type="Script" uid="uid://yp3w2muikvqp" path="res://broom.gd" id="3_n7s3d"]
 [ext_resource type="Script" uid="uid://besjff72cd7qu" path="res://book2.gd" id="4_863wg"]
@@ -13,10 +13,10 @@
 [ext_resource type="Script" uid="uid://00sy1gporcqp" path="res://book4.gd" id="12_j6piu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d8hb3"]
-size = Vector2(124.30558, 20.732439)
+size = Vector2(100.49068, 20.732439)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n7s3d"]
-size = Vector2(157.01575, 71.37677)
+size = Vector2(116.835754, 45.608185)
 
 [sub_resource type="LabelSettings" id="LabelSettings_rv1at"]
 font_size = 57
@@ -27,11 +27,12 @@ script = ExtResource("1_n7s3d")
 [node name="TextureRect" type="TextureRect" parent="."]
 offset_right = 2172.0
 offset_bottom = 1622.0
-texture = ExtResource("1_drp12")
+texture = ExtResource("2_euvyn")
 
 [node name="broom" type="Sprite2D" parent="."]
-position = Vector2(1447.4844, 545)
-scale = Vector2(0.24515963, 0.21967475)
+position = Vector2(1561.0322, 621.2749)
+rotation = 0.034906585
+scale = Vector2(0.13613327, 0.13656601)
 texture = ExtResource("7_863wg")
 script = ExtResource("3_n7s3d")
 
@@ -50,10 +51,10 @@ self_modulate = Color(1, 1, 1, 0)
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -243.18604
-offset_top = -682.8276
-offset_right = -291.71094
-offset_bottom = -676.7547
+offset_left = -229.44812
+offset_top = -668.10443
+offset_right = -277.97302
+offset_bottom = -662.03156
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -62,13 +63,15 @@ position = Vector2(701.58154, 905.8892)
 scale = Vector2(0.44581506, 0.51181036)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
-position = Vector2(375.5334, -1060.7234)
+position = Vector2(1519.5056, -400.32257)
+rotation = 0.03490658
 scale = Vector2(1.0000004, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
 [node name="broom2" type="Sprite2D" parent="."]
-position = Vector2(1336.1044, 581.35535)
-scale = Vector2(0.22418132, 0.19899431)
+position = Vector2(1379.9818, 598.9298)
+rotation = 0.034906585
+scale = Vector2(0.22418132, 0.13673203)
 texture = ExtResource("6_3xfbb")
 script = ExtResource("3_n7s3d")
 
@@ -89,10 +92,10 @@ self_modulate = Color(1, 1, 1, 0)
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -161.0498
-offset_top = -790.753
-offset_right = -161.78198
-offset_bottom = -784.4926
+offset_left = -162.04
+offset_top = -739.89453
+offset_right = -162.77217
+offset_bottom = -733.63416
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -103,7 +106,8 @@ collision_layer = 2
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D3"]
-position = Vector2(864.5254, -1066.585)
+position = Vector2(1918.7742, -374.92252)
+rotation = 0.034906585
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
@@ -114,7 +118,8 @@ collision_layer = 4
 collision_mask = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D4"]
-position = Vector2(1075.3752, -1062.6772)
+position = Vector2(2129.6243, -359.29175)
+rotation = 0.034906585
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
@@ -125,13 +130,15 @@ collision_layer = 8
 collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D5"]
-position = Vector2(651.4325, -1064.6311)
+position = Vector2(1710.1675, -388.59937)
+rotation = 0.034906585
 scale = Vector2(1.0000001, 1)
 shape = SubResource("RectangleShape2D_n7s3d")
 
 [node name="broom3" type="Sprite2D" parent="."]
-position = Vector2(1169.7666, 544.0596)
-scale = Vector2(0.21660134, 0.2593977)
+position = Vector2(1476.0002, 620.1499)
+rotation = 0.034906585
+scale = Vector2(0.24433388, 0.16385528)
 texture = ExtResource("9_ljxne")
 script = ExtResource("3_n7s3d")
 
@@ -143,7 +150,7 @@ collision_mask = 4
 script = ExtResource("10_md7fo")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="broom3/Area2D"]
-position = Vector2(1001.7287, 358.11652)
+position = Vector2(1002.1897, 358.11652)
 scale = Vector2(0.038716815, 0.4471064)
 shape = SubResource("RectangleShape2D_d8hb3")
 
@@ -152,16 +159,17 @@ self_modulate = Color(1, 1, 1, 0)
 anchors_preset = -1
 anchor_right = 1.126
 anchor_bottom = 1.0
-offset_left = -95.87494
-offset_top = -586.2025
-offset_right = -143.26068
-offset_bottom = -577.6095
+offset_left = -92.401245
+offset_top = -560.5808
+offset_right = -139.78702
+offset_bottom = -551.9878
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="broom4" type="Sprite2D" parent="."]
-position = Vector2(861.6284, 593.32776)
-scale = Vector2(0.32734838, 0.1806759)
+position = Vector2(1654, 620)
+rotation = 0.034906585
+scale = Vector2(0.231396, 0.1341593)
 texture = ExtResource("3_d8hb3")
 script = ExtResource("3_n7s3d")
 
@@ -182,10 +190,10 @@ self_modulate = Color(1, 1, 1, 0)
 anchors_preset = -1
 anchor_right = 1.126
 anchor_bottom = 1.0
-offset_left = -114.9491
-offset_top = -743.47363
-offset_right = -162.3349
-offset_bottom = -734.8806
+offset_left = -102.51721
+offset_top = -791.8707
+offset_right = -149.90314
+offset_bottom = -783.2777
 grow_horizontal = 2
 grow_vertical = 2
 

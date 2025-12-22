@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2fevy6b6gyyo"
-path="res://.godot/imported/ellia-sigh.png-573db5ddc3a15df9a429bb78e72b5259.ctex"
+uid="uid://dgoqvbrj1t36p"
+path="res://.godot/imported/lady-silhouette.png-51a5e9a82d5f3b6c1990f3eaeb6f2976.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/ellia-sigh.png"
-dest_files=["res://.godot/imported/ellia-sigh.png-573db5ddc3a15df9a429bb78e72b5259.ctex"]
+source_file="res://Assets/Character Portraits/Lady Ludington/lady-silhouette.png"
+dest_files=["res://.godot/imported/lady-silhouette.png-51a5e9a82d5f3b6c1990f3eaeb6f2976.ctex"]
 
 [params]
 

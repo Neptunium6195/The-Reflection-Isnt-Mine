@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgoqvbrj1t36p"
-path="res://.godot/imported/lady-silhouette.png-6796e1985cd0a78205f4e89317661680.ctex"
+uid="uid://ct0v7q04fosxo"
+path="res://.godot/imported/ellia-happy.png-0b1838bef6c1f06cf29e173491684ef3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/lady-silhouette.png"
-dest_files=["res://.godot/imported/lady-silhouette.png-6796e1985cd0a78205f4e89317661680.ctex"]
+source_file="res://Assets/Character Portraits/Ellia/ellia-happy.png"
+dest_files=["res://.godot/imported/ellia-happy.png-0b1838bef6c1f06cf29e173491684ef3.ctex"]
 
 [params]
 

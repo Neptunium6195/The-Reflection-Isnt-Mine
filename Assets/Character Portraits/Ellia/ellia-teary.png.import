@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpqfbgc727p1j"
-path="res://.godot/imported/lady-worried.png-0d13a014f655476dbc59fe9018fbb5d6.ctex"
+uid="uid://cr2nri46k3owk"
+path="res://.godot/imported/ellia-teary.png-da9ec339b17a7856625bddcf6b043745.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/lady-worried.png"
-dest_files=["res://.godot/imported/lady-worried.png-0d13a014f655476dbc59fe9018fbb5d6.ctex"]
+source_file="res://Assets/Character Portraits/Ellia/ellia-teary.png"
+dest_files=["res://.godot/imported/ellia-teary.png-da9ec339b17a7856625bddcf6b043745.ctex"]
 
 [params]
 

@@ -10,12 +10,49 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
+&"default_portrait": "neutral",
 &"description": "",
 &"display_name": "Mrs. Newington",
 &"mirror": false,
 &"nicknames": ["Guest"],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"neutral": {
+"export_overrides": {
+"image": "\"res://Assets/Character Portraits/Mrs Newington/mrs-newington-neutral.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 0.75,
+"scene": ""
+},
+"silhouette": {
+"export_overrides": {
+"image": "\"res://Assets/Character Portraits/Charles/charles-silhouette.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 0.75,
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "\"res://Assets/Character Portraits/Mrs Newington/mrs-newington-smile.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 0.75,
+"scene": ""
+},
+"wink": {
+"export_overrides": {
+"image": "\"res://Assets/Character Portraits/Mrs Newington/mrs-newington-wink.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 0.75,
+"scene": ""
+}
+},
 &"scale": 1.0
 }

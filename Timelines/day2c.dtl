@@ -1,64 +1,20 @@
 # ludingtons room bg
 [background fade="0.0"]
-<<<<<<< HEAD
-ellia: I wonder if the masters know that they have a new maid. They must be people of importance and think very little of servants.
-=======
-join ellia center
 ellia: I wonder if the masters know that they have a new maid. 
 ellia: They must be people of importance and think very little of servants.
->>>>>>> 0c3d8138ee4aa097a82b819dc0a6044b0fece055
 ellia: I must say, I feel as if I am always being watched here...
 ellia: Am I to suffer the same fate as Charles?
 ellia: Oh, I mustn't say such things. Charles cannot be dead.
 ellia: Mrs Williams' comment about the strange mirror must be getting to my head.
 ellia: This place is strange, the days are much longer here and the sky never seems to brighten.
 ellia: At first I thought the family abstained from direct sunlight for fear of losing their fairness...
-<<<<<<< HEAD
-ellia: But even past the curtains I can never seem to make anything out except for darkness and the menacing forest outside. Surely, it's the oaks that are blocking the sun... right?
-# bell sound
-audio -
-ellia: Speaking of the masters, it appears I am needed in the boudoir.
-# goes to boudoir and taps on door
-# knocking sound
-audio -
-join  center
-Please have the tea tray brought in.
-leave 
-join ellia center
-ellia: Yes, ma'am.
-leave ellia
-ellia: The tea tray? I do not remember anything about a tea order.
-ellia: I should look in the kitchens.
-# goes to kitchen
-[background fade="0.0"]
-ellia: Now where is the tea?
-# bg change: show tea tray with a note from mrs williams
-[background fade="0.0"]
-ellia: Ah, Mrs. Williams has done it already. Lady Ludington must take tea often at this time.
-# rolls teacart to boudoir
-# knocking sound
-audio -
-join ellia center
-ellia: The tea, ma'am.
-leave 
-join  center
-Bring it in.
-leave 
-# ellia enters room and sets up tea
-[background fade="0.0"]
-# ellia steals a glance at lady ludington
-join  center
-Thank you.
-leave 
-# ellia nods and leaves
-=======
 ellia: But even past the curtains I can never seem to make anything out except for darkness and the menacing forest outside. 
 ellia: It must the oaks that are blocking the sun...
 #bell
 audio -
 # boudoir door
 [background fade="0.0"]
-join lady (lady-silhouette) center
+join lady (silhouette) center
 lady: Please have the tea tray brought in.
 leave lady 
 join ellia center 
@@ -78,7 +34,7 @@ ellia: Lady Ludington must take tea often at this time.
 join ellia
 ellia: The tea, ma’am.
 leave ellia 
-join lady (lady-silhouette) center
+join lady (silhouette) center
 lady: Bring it in.
 leave lady 
 # image of the tea tray set up
@@ -90,5 +46,4 @@ leave lady
 lady: Thank you.
 # boudoir doors
 [background fade="0.0"]
->>>>>>> 0c3d8138ee4aa097a82b819dc0a6044b0fece055
 ellia: She does not seem to know who I am.

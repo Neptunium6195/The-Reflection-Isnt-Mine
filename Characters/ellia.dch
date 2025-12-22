@@ -10,16 +10,16 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "ellia-confused",
+&"default_portrait": "confused",
 &"description": "",
 &"display_name": "Ellia",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"ellia-confused": {
+"confused": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/ellia-confused.png\""
+"image": "\"res://Assets/Character Portraits/Ellia/ellia-confused.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -27,9 +27,9 @@
 "scale": 0.75,
 "scene": ""
 },
-"ellia-happy": {
+"happy": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/ellia-happy.png\""
+"image": "\"res://Assets/Character Portraits/Ellia/ellia-happy.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -37,9 +37,9 @@
 "scale": 0.75,
 "scene": ""
 },
-"ellia-shocked": {
+"shocked": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/ellia-shocked.png\""
+"image": "\"res://Assets/Character Portraits/Ellia/ellia-shocked.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -47,9 +47,9 @@
 "scale": 0.75,
 "scene": ""
 },
-"ellia-sigh": {
+"sigh": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/ellia-sigh.png\""
+"image": "\"res://Assets/Character Portraits/Ellia/ellia-sigh.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -57,9 +57,9 @@
 "scale": 0.75,
 "scene": ""
 },
-"ellia-teary": {
+"teary": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/ellia-teary.png\""
+"image": "\"res://Assets/Character Portraits/Ellia/ellia-teary.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -67,9 +67,9 @@
 "scale": 0.75,
 "scene": ""
 },
-"ellia-worried": {
+"worried": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/ellia-worried.png\""
+"image": "\"res://Assets/Character Portraits/Ellia/ellia-worried.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,

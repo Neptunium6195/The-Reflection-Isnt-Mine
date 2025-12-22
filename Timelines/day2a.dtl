@@ -11,25 +11,23 @@ ellia: What...? I did not smile.
 [background fade="0.0"]
 [wait time="2.5"]
 ellia: Huh. Am i seeing things?
-ellia: I am sure my face did not move. It must be my anxieties.
-join ellia center
-[wait time="1.0"]
+ellia:  I am sure my face did not move. It must be my anxieties.
 # ellia looks away
 update ellia center [mirrored="true"]
 [wait time="1.0"]
+leave ellia
 # bg change to reflection smiling again
 [background fade="0.0"]
 [wait time="2.5"]
 # ellia looks back
 join ellia center
-leave 
 [wait time="1.5"]
-ellia: What is going on??
-Your face fits me...
-join ellia (ellia-worried) center
+ellia: What is going on?
+Reflection: Your face fits me...
+update ellia (worried) center
 ellia: Hello? Who said that? What is happening?
-leave ellia
 # bg change: mirror surface ripples, ellia's reflection blinks
+leave ellia
 [background fade="0.0"]
 [wait time="2.5"]
 ellia: I don't like this. I should begin my work and clear my mind.

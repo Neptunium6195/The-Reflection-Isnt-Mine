@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ikm2t2apllny"
-path="res://.godot/imported/ellia-worried.png-4ca19ed71c90d8304463ed37d1cd27ab.ctex"
+uid="uid://cqtbak2efux82"
+path="res://.godot/imported/mrs-newington-silhouette.png-2ee461d6d7abbe86942a4fb73d1b2f68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Character Portraits/ellia-worried.png"
-dest_files=["res://.godot/imported/ellia-worried.png-4ca19ed71c90d8304463ed37d1cd27ab.ctex"]
+source_file="res://Assets/Character Portraits/Mrs Newington/mrs-newington-silhouette.png"
+dest_files=["res://.godot/imported/mrs-newington-silhouette.png-2ee461d6d7abbe86942a4fb73d1b2f68.ctex"]
 
 [params]
 

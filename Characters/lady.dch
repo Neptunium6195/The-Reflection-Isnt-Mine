@@ -10,43 +10,43 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "lady-neutral",
+&"default_portrait": "neutral",
 &"description": "",
-&"display_name": "lady-ludington",
+&"display_name": "Lady Ludington",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"lady-neutral": {
+"neutral": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/lady-neutral.png\""
+"image": "\"res://Assets/Character Portraits/Lady Ludington/lady-neutral.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 0.75,
 "scene": ""
 },
-"lady-silhouette": {
+"silhouette": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/lady-silhouette.png\""
+"image": "\"res://Assets/Character Portraits/Lady Ludington/lady-silhouette.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 0.75,
 "scene": ""
 },
-"lady-smile": {
+"smile": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/lady-smile.png\""
+"image": "\"res://Assets/Character Portraits/Lady Ludington/lady-smile.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 0.75,
 "scene": ""
 },
-"lady-worried": {
+"worried": {
 "export_overrides": {
-"image": "\"res://Assets/Character Portraits/lady-worried.png\""
+"image": "\"res://Assets/Character Portraits/Lady Ludington/lady-worried.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

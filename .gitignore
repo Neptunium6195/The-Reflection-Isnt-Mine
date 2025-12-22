@@ -1,32 +1,22 @@
-# Godot 4+ specific ignores
+`# Godot 4+ specific ignores
 .godot/
 .nomedia
 
-#Godot-specific ignores
+# Godot-specific ignores
 .import/
 export.cfg
 export_credentials.cfg
 *.tmp
 
-#imported translations
+# Imported translations (automatically generated from CSV files)
 *.translation
 
-#Mono-specific ignores
+# Mono-specific ignores
 .mono/
 data_*/
 mono_crash.*.json
 
-#OS-specific ignores
-.DS_Store
-Thumbs.db
-Dektop.ini
-
-.godot/editor/create_recent.Node
-.godot/editor/create_recent.Node
-.godot/editor/editor_layout.cfg
-.godot/editor/filesystem_cache10
-.godot/editor/project_metadata.cfg
-.godot/editor/quick_open_dialog_cache.cfg
-.godot/editor/recent_dirs
-.godot/editor/script_editor_cache.cfg
-.godot/uid_cache.bin
+# OS-specific ignores (optional, for cross-platform team compatibility)
+.DS_Store # macOS
+Thumbs.db # Windows
+Desktop.ini # Windows`

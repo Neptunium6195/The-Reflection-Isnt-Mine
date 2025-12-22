@@ -38,6 +38,7 @@ join lady (silhouette) center
 lady: Bring it in.
 leave lady 
 # image of the tea tray set up
+# changed parts out for better flow/easier development
 [background fade="0.0"]
 [wait time="2"]
 # image of lady navier

@@ -1,3 +1,66 @@
+<<<<<<< HEAD
+# entrance hall bg
+[background fade="0.0"]
+ellia: While the lady is taking tea, I believe I can tidy the morning room now.
+# goes to morning room
+[background fade="0.0"]
+ellia: How ironic, a morning room that never seems to see the light of day.
+ellia: What a mess! The books are all over the floor.
+# picks one up
+# parchment on screen
+[background fade="0.0"]
+[wait time="2.0"]
+ellia: Lady Ludington?
+# reads again
+[wait time="2.0"]
+ellia: Oh, I should not pry. I must show respect for my masters. Though... why is it ripped?
+# gasp sound
+audio -
+ellia: I must not look any further. Whatever occurs between her and her husband should not concern me.
+# puts parchmentg back into book
+# goes back to cleaning
+ellia: The lady does have quite the eye.
+ellia:  These porcelains are the very ones the women in the city would not cease gushing over.
+ellia: I heard they were the finest in this side of the world.
+# puts book back and goes back to cleaning
+# sigh sound
+audio -
+ellia: Finally, the extraordinary elegance of this room requires cleaning equally as delicate.
+ellia: I could not count the number of times I nearly shattered a statuette.
+# almost leaves but has a lightbulb moment
+ellia: Wait.
+# puts cleaning stuff down and goes to diary
+ellia: Surely no one will come in.
+ellia: I have a peculiar supposition I must resolve.
+# opens book back to page the piece of paper fell out from
+ellia: There's something else on this page.
+# closeup of book
+[background fade="0.0"]
+[wait time="2.5"]
+# sigh sound
+audio -
+ellia: Only those foolish enough to believe such eccentricities.
+ellia: I doubt Sir Ludington is trapped in a mirror.
+ellia: Of all things, a mirror! What nonsense.
+ellia: Gentleman will say anything to keep a woman in the home. How crude!
+# puts the book back down where it was
+ellia: What was I thinking?
+ellia: There is a perfectly sound explanation for Lady Ludington's concerns and it does not involve me.
+ellia: I must polish the windows before evening, or I will not have enough time to properly prepare the bedchamber.
+# goes to polish windows
+# bg change: ellia's room with candle lit
+[background fade="0.0"]
+ellia: I am dreadfully fatigued. Am I to do all these tasks alone?
+ellia: There must be another servant here. Though, I have not seen anyone but Mrs. Williams and the lady since my arrival.
+ellia: I wonder if Charles is here at all.
+ellia: Even the kitchens are empty when I eat. Perhaps the cook takes respite often.
+ellia: I shall find out more tomorrow.
+# blows out candle
+# blowing sound effect
+audio -
+# change to a dark screen to show that candle has been blown out
+[background fade="0.0"]
+=======
 # boudoir doors/any bg
 [background fade="0.0"]
 ellia: While the lady is taking tea, I believe I can tidy the morning room now. 
@@ -41,3 +104,4 @@ ellia: There is a perfectly sound explanation for Lady Ludington’s concerns an
 [background fade="0.0"]
 [wait time="2.0"]
 ellia: I must polish the windows before evening, or I will not have enough time to properly prepare the bedchamber.
+>>>>>>> 0c3d8138ee4aa097a82b819dc0a6044b0fece055

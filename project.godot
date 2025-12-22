@@ -44,6 +44,7 @@ directories/dtl_directory={
 "day4b": "res://Timelines/day4b.dtl",
 "day4c": "res://Timelines/day4c.dtl",
 "day4d": "res://Timelines/day4d.dtl",
+"day5a": "res://Timelines/day5a.dtl",
 "elliaCharlesMeet": "res://Timelines/elliaCharlesMeet.dtl",
 "intro": "res://Timelines/intro.dtl"
 }

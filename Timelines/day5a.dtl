@@ -1,0 +1,47 @@
+# entrance hall bg
+[background fade="0.0"]
+[wait time="1.0"]
+# knocking sound
+audio -
+ellia: A visitor? I do hope it is not for the lady.
+ellia: I cannot bear to see her. I am terrified of what she plans to do with me.
+ellia: But I must open the door, or she may come downstairs to see the visitor herself.
+ellia: I have been avoiding her the whole day and I cannot sacrifice myself now.
+# opens door
+# door creaks
+audio -
+[background fade="0.0"]
+join mrs-newington rightmost [mirrored="true"]
+mrs-newington: Why, hello again. I am here to call upon Lady Ludington.
+join ellia leftmost
+ellia: May I have your card?
+mrs-newington: This visit is a bit urgent, I did not arrange anything beforehand.
+leave --All--
+ellia: I do not want to see Lady Ludington.
+ellia: What do I do? What if I politely decline her?
+join ellia leftmost
+ellia: I am afraid I have forgotten, Lady Ludington has left this morning to take care of business in town.
+ellia: I am sure she will be back by the morrow; I hope your situation is not too urgent.
+join mrs-newington (smile) rightmost [mirrored="true"]
+mrs-newington: For an odd reason, dear, I do not believe you.
+mrs-newington: I am positively certain she is at home. You simply do not want to let me in.
+mrs-newington: Well, I shall take you to her and tell her what a disobedient girl you are.
+mrs-newington: She will surely punish you.
+# mrs newington reaches for ellia
+- Accept punishment. It is best for you to lay low, anyway.
+- Fight back. Mrs. Newington might not be who you think she is.
+# ellia dragged to drawing room
+# bg change: drawing room
+[background fade="0.0"]
+join mrs-newington rightmost [mirrored="true"]
+mrs-newington: She lied to me about your presence.
+mrs-newington: I thought it might be time. I am done waiting around.
+join lady (neutral) leftmost
+lady (neutral): Were you not the one who taught me patience is a virtue?
+mrs-newington: Oh, it's just us now.
+mrs-newington: Besides, it gets a bit lonely now and then. I would love for someone else to join me in the city.
+lady: Alright, I will have to find a new maid then.
+lady: You must find one for me, to repay your intolerance.
+mrs-newington: Shall I? Or you?
+lady: You have the honors.
+# game puzzle

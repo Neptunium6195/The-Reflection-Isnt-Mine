@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5qp3ygrvp8rv"
-path="res://.godot/imported/drawing-room.jpg-f02f20f5e00f2e8a6e125a511398776c.ctex"
+uid="uid://hktj5vyudvue"
+path="res://.godot/imported/drawing-room-new.png-ad1984998d71b85b511d849c785752fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/drawing-room.jpg"
-dest_files=["res://.godot/imported/drawing-room.jpg-f02f20f5e00f2e8a6e125a511398776c.ctex"]
+source_file="res://Assets/Backgrounds/drawing-room-new.png"
+dest_files=["res://.godot/imported/drawing-room-new.png-ad1984998d71b85b511d849c785752fd.ctex"]
 
 [params]
 

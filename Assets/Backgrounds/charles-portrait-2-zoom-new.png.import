@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwsk8omxy83a1"
-path="res://.godot/imported/charles-portrait-1-zoom.png-7b6d9632a8261044f8210d50ce5b4526.ctex"
+uid="uid://co1hvrir04hq5"
+path="res://.godot/imported/charles-portrait-2-zoom-new.png-152d342a2f00b86516bea9416122877b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/charles-portrait-1-zoom.png"
-dest_files=["res://.godot/imported/charles-portrait-1-zoom.png-7b6d9632a8261044f8210d50ce5b4526.ctex"]
+source_file="res://Assets/Backgrounds/charles-portrait-2-zoom-new.png"
+dest_files=["res://.godot/imported/charles-portrait-2-zoom-new.png-152d342a2f00b86516bea9416122877b.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c07fj8t4vc1xl"
-path="res://.godot/imported/drawing-room-charles-portrait-2.png-727b8a5e7ad16e10ce3d8a4351e088b7.ctex"
+uid="uid://dljj7xruser4y"
+path="res://.godot/imported/charles-portrait-1-zoom-new.png-46eac1360e1889a473e712c1d9d14b95.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/drawing-room-charles-portrait-2.png"
-dest_files=["res://.godot/imported/drawing-room-charles-portrait-2.png-727b8a5e7ad16e10ce3d8a4351e088b7.ctex"]
+source_file="res://Assets/Backgrounds/charles-portrait-1-zoom-new.png"
+dest_files=["res://.godot/imported/charles-portrait-1-zoom-new.png-46eac1360e1889a473e712c1d9d14b95.ctex"]
 
 [params]
 

@@ -1,14 +1,36 @@
-[gd_scene load_steps=14 format=3 uid="uid://csdb15mhngxne"]
+[gd_scene load_steps=22 format=3 uid="uid://csdb15mhngxne"]
 
 [ext_resource type="Script" uid="uid://ctaym6ojcnka6" path="res://wiping.gd" id="1_55b53"]
-[ext_resource type="Texture2D" uid="uid://cmiq21v8pk52u" path="res://Assets/mirror-mockup.png" id="1_u2e8d"]
-[ext_resource type="Texture2D" uid="uid://bubchmchcuq2x" path="res://Assets/stain-mockup.png" id="2_4lme1"]
+[ext_resource type="Texture2D" uid="uid://c1tgdtgai6c7r" path="res://Assets/Backgrounds/mirror-wipe-bg.png" id="2_5qams"]
+[ext_resource type="Texture2D" uid="uid://c6nt7jukwx80p" path="res://Assets/dirt 1.png" id="3_5qams"]
 [ext_resource type="Script" uid="uid://ema5n64yfw1a" path="res://wipe.gd" id="3_55b53"]
+[ext_resource type="Texture2D" uid="uid://ctui6wwg6wlp" path="res://Assets/dirt 2.png" id="5_0rkmf"]
 [ext_resource type="Texture2D" uid="uid://dn0v0c04vsdha" path="res://Assets/cloth.png" id="5_55b53"]
 [ext_resource type="Script" uid="uid://br2idb1u868qb" path="res://cloth.gd" id="6_55b53"]
+[ext_resource type="Texture2D" uid="uid://vle5obm0icjk" path="res://Assets/dirt 3.png" id="6_g2smi"]
+[ext_resource type="Texture2D" uid="uid://c1hsik2ohcq3" path="res://Assets/dirt 4.png" id="7_en8p6"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_pphqo"]
-radius = 106.71886
+radius = 190.19974
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jx3am"]
+radius = 125.75781
+height = 449.9995
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_h7oad"]
+radius = 204.01544
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mfhjh"]
+radius = 163.3335
+height = 613.333
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_s3f8e"]
+radius = 105.82959
+height = 552.2012
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_nnqw1"]
+radius = 159.0625
+height = 424.3711
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_c0hv2"]
 
@@ -36,14 +58,14 @@ offset_right = 2160.0
 offset_bottom = 2141.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_u2e8d")
+texture = ExtResource("2_5qams")
 expand_mode = 4
 stretch_mode = 4
 
 [node name="stain" type="Sprite2D" parent="."]
-position = Vector2(778.00006, 834)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+position = Vector2(928, 654)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_5qams")
 
 [node name="Area2D" type="Area2D" parent="stain"]
 position = Vector2(26.666473, -36.666656)
@@ -51,13 +73,13 @@ disable_mode = 2
 script = ExtResource("3_55b53")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="stain/Area2D"]
-position = Vector2(-0.00020074844, 0)
+position = Vector2(-41.666866, 21.666462)
 shape = SubResource("CircleShape2D_pphqo")
 
 [node name="stain2" type="Sprite2D" parent="."]
-position = Vector2(1167, 725.00006)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+position = Vector2(1188, 746)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("5_0rkmf")
 
 [node name="Area2D" type="Area2D" parent="stain2"]
 position = Vector2(26.666473, -36.666656)
@@ -65,13 +87,14 @@ disable_mode = 2
 script = ExtResource("3_55b53")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="stain2/Area2D"]
-position = Vector2(-0.00020074844, 0)
-shape = SubResource("CircleShape2D_pphqo")
+position = Vector2(-11.666336, -8.333553)
+rotation = -0.4886922
+shape = SubResource("CapsuleShape2D_jx3am")
 
 [node name="stain3" type="Sprite2D" parent="."]
-position = Vector2(719, 1028)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+position = Vector2(811, 1088)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("6_g2smi")
 
 [node name="Area2D" type="Area2D" parent="stain3"]
 position = Vector2(26.666473, -36.666656)
@@ -79,13 +102,13 @@ disable_mode = 2
 script = ExtResource("3_55b53")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="stain3/Area2D"]
-position = Vector2(-0.00020074844, 0)
-shape = SubResource("CircleShape2D_pphqo")
+position = Vector2(-1.6664604, 41.666866)
+shape = SubResource("CircleShape2D_h7oad")
 
 [node name="stain4" type="Sprite2D" parent="."]
 position = Vector2(1293, 968)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_5qams")
 
 [node name="Area2D" type="Area2D" parent="stain4"]
 position = Vector2(26.666473, -36.666656)
@@ -98,34 +121,37 @@ shape = SubResource("CircleShape2D_pphqo")
 
 [node name="stain5" type="Sprite2D" parent="."]
 position = Vector2(1006, 947)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("7_en8p6")
 
 [node name="Area2D" type="Area2D" parent="stain5"]
 position = Vector2(26.666473, -36.666656)
 script = ExtResource("3_55b53")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="stain5/Area2D"]
-position = Vector2(-0.00020074844, 0)
-shape = SubResource("CircleShape2D_pphqo")
+position = Vector2(-6.66646, 31.666561)
+shape = SubResource("CapsuleShape2D_mfhjh")
 
 [node name="stain6" type="Sprite2D" parent="."]
-position = Vector2(1242, 1370)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+position = Vector2(1317, 1167)
+rotation = 1.8308504
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("5_0rkmf")
 
 [node name="Area2D" type="Area2D" parent="stain6"]
 position = Vector2(26.666473, -36.666656)
 script = ExtResource("3_55b53")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="stain6/Area2D"]
-position = Vector2(-0.00020074844, 0)
-shape = SubResource("CircleShape2D_pphqo")
+position = Vector2(-1.5317917, 14.456741)
+rotation = 2.8064895
+shape = SubResource("CapsuleShape2D_s3f8e")
 
 [node name="stain7" type="Sprite2D" parent="."]
 position = Vector2(939, 1203)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+rotation = 1.097812
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("6_g2smi")
 
 [node name="Area2D" type="Area2D" parent="stain7"]
 position = Vector2(26.666473, -36.666656)
@@ -137,8 +163,9 @@ shape = SubResource("CircleShape2D_pphqo")
 
 [node name="stain8" type="Sprite2D" parent="."]
 position = Vector2(1114, 1232)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+rotation = -2.8064895
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("7_en8p6")
 
 [node name="Area2D" type="Area2D" parent="stain8"]
 position = Vector2(26.666473, -36.666656)
@@ -150,9 +177,10 @@ position = Vector2(-20.000214, 20)
 shape = SubResource("CircleShape2D_pphqo")
 
 [node name="stain9" type="Sprite2D" parent="."]
-position = Vector2(765, 1525)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+position = Vector2(871, 1445)
+rotation = -2.5621433
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("3_5qams")
 
 [node name="Area2D" type="Area2D" parent="stain9"]
 position = Vector2(26.666473, -36.666656)
@@ -165,8 +193,9 @@ shape = SubResource("CircleShape2D_pphqo")
 
 [node name="stain10" type="Sprite2D" parent="."]
 position = Vector2(1091, 1495)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+rotation = -2.8064895
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("6_g2smi")
 
 [node name="Area2D" type="Area2D" parent="stain10"]
 position = Vector2(27, -36.667)
@@ -178,9 +207,9 @@ position = Vector2(-0.00020074844, 0)
 shape = SubResource("CircleShape2D_pphqo")
 
 [node name="stain11" type="Sprite2D" parent="."]
-position = Vector2(1393, 1563)
-scale = Vector2(0.3, 0.3)
-texture = ExtResource("2_4lme1")
+position = Vector2(1351, 1491)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("7_en8p6")
 
 [node name="Area2D" type="Area2D" parent="stain11"]
 position = Vector2(26.666473, -36.666656)
@@ -188,11 +217,12 @@ disable_mode = 2
 script = ExtResource("3_55b53")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="stain11/Area2D"]
-position = Vector2(-0.00020074844, 0)
-shape = SubResource("CircleShape2D_pphqo")
+position = Vector2(-31.666456, 36.666866)
+rotation = 0.7766715
+shape = SubResource("CapsuleShape2D_nnqw1")
 
 [node name="cloth" type="Sprite2D" parent="."]
-position = Vector2(1801, 1279)
+position = Vector2(1781, 1085)
 scale = Vector2(0.25, 0.243)
 texture = ExtResource("5_55b53")
 script = ExtResource("6_55b53")
@@ -207,6 +237,7 @@ theme_override_styles/pressed = SubResource("StyleBoxEmpty_55b53")
 theme_override_styles/hover = SubResource("StyleBoxEmpty_x5kf5")
 theme_override_styles/disabled = SubResource("StyleBoxEmpty_apuf0")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_5qams")
+metadata/_edit_use_anchors_ = true
 
 [node name="Area2D" type="Area2D" parent="cloth"]
 position = Vector2(-35.71428, -149.60632)

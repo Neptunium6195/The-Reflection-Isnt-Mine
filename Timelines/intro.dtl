@@ -18,11 +18,10 @@ mrs-williams: Ah, I see.
 mrs-williams: Well, come along. No time to dilly-dally.
 leave --All--
 # go to hallway
-[background fade="0.0"]
+[background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
 # show portrait
-[background fade="0.0"]
 # for vibes
-audio -
+audio "-"
 [wait time="4.0" skippable="true"]
 # back to hallway bg
 [background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
@@ -42,7 +41,7 @@ mrs-williams: The master and mistress of the estate reside here still.
 mrs-williams: The children… best not to wonder too much. There is much to be done.
 leave mrs-williams
 # change to entrance hall
-[background fade="0.0"]
+[background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
 [wait time="0.6"]
 [background arg="res://Assets/closeddoor.png" fade="0.0"]
 join mrs-williams center
@@ -79,7 +78,7 @@ ellia (happy): I shall try it on tomorrow, for it is getting quite late.
 ellia (happy): And I am filled with utter gratitude that they feed me. What considerate masters.
 # creaking
 [wait time="3.0"]
-audio -
+audio "-"
 ellia (worried): Such an old manor.
 ellia (worried): The creaking is a bit unsettling…
 ellia (worried): It feels like there’s someone right at my door.
@@ -88,13 +87,13 @@ ellia: zzzz...
 [wait time="3.5"]
 [background fade="0.0"]
 join ellia (shocked) left
-ellia (shocked): charles-
+ellia (shocked): Charles-
 leave ellia
 [background fade="0.0"]
 [wait time="3.5" skippable="true"]
 [background arg="res://Assets/Backgrounds/dream.jpg" fade="0.0"]
 join ellia (shocked) left
-ellia (teary): charles-
+ellia (teary): Charles-
 [wait time="1.0" skippable="true"]
 [background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
 ellia (sigh): Oh, it was just a dream...

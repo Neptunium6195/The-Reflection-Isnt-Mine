@@ -4,7 +4,6 @@ join ellia center
 ellia (happy): This skirt is softer than any of the ones I have ever owned…
 # image of broom closet
 leave ellia
-[background fade="0.0"]
 [wait time="2.5"]
 # entrance hall bg
 [background arg="res://Assets/Backgrounds/drawing-room-new.png" fade="0.0"]

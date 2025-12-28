@@ -1,37 +1,38 @@
 # ellia;s room with mirror covered
-ellia: Well, it is finally the end of the day. I do not feel at rest here, but I cannot leave, for it terrifies me more to go outside alone. 
-#feels pocket
-[wait time="3.0"] 
+ellia: Well, it is finally the end of the day. I do not feel at rest here, but I cannot leave, for it terrifies me more to go outside alone.
+# #feels pocket
+[wait time="3.0"]
 ellia: There is something hard in my pocket.
 [wait time="2.0"]
-ellia: When did this get here? I never put it in. 
+ellia: When did this get here? I never put it in.
 ellia: I must put it back tomorrow, or Lady Ludington may accuse me of stealing.
 [wait time="1.0"]
-ellia: But there is no way of it getting into my pocket without putting it in there myself, or by someone else… 
-ellia: It is locked anyway. 
-ellia: I am dreadfully curious, if someone put it here, they should expect me to know the code… no? 
-ellia: It is worthy of a trial. 
+ellia: But there is no way of it getting into my pocket without putting it in there myself, or by someone else…
+ellia: It is locked anyway.
+ellia: I am dreadfully curious, if someone put it here, they should expect me to know the code… no?
+ellia: It is worthy of a trial.
 # lock puzzle
-ellia: This is it. 
-ellia: That is Charles’ hand, I am absolutely certain. 
-ellia: The imigia are real. 
-ellia: Am I trapped here, alone? 
-ellia: Oh, Charles. I wish you were here. 
-ellia: What can I do? 
-ellia: There must be something, or I shall wait until I become one of them, chained inside the mirror for all eternity. 
+ellia: This is it.
+ellia: That is Charles’ hand, I am absolutely certain.
+ellia: The imigia are real.
+ellia: Am I trapped here, alone?
+ellia: Oh, Charles. I wish you were here.
+ellia: What can I do?
+ellia: There must be something, or I shall wait until I become one of them, chained inside the mirror for all eternity.
 [wait time="3.0"]
-ellia: Am I to die? 
+ellia: Am I to die?
 # closeup of mirror engraver
-ellia: This has quite a sharp end. 
-ellia: I wonder what it is used for. 
-ellia: I shall keep this close by. It may be of use later. 
-ellia: For now, I shall try to rest before tomorrow. 
+ellia: This has quite a sharp end.
+ellia: I wonder what it is used for.
+ellia: I shall keep this close by. It may be of use later.
+ellia: For now, I shall try to rest before tomorrow.
 # darkness bc she closed her eyes
-ellia: It has come to my remebereance: it is my mother’s birthday. 
-ellia: Today is the 18th... or it was the 18th. I cannot discern the hour at this moment. 
+ellia: It has come to my remebereance\: it is my mother’s birthday.
+ellia: Today is the 18th... or it was the 18th. I cannot discern the hour at this moment.
 [wait time="2.0"]
-ellia: Oh, I wish she were here with me now. 
-ellia: She would know what to do. 
-ellia: I wish Charles had never left. 
-ellia: I would have been in the city still, celebrating with him. 
+ellia: Oh, I wish she were here with me now.
+ellia: She would know what to do.
+ellia: I wish Charles had never left.
+ellia: I would have been in the city still, celebrating with him.
 ellia: I feel so utterly alone…
+[end_timeline]

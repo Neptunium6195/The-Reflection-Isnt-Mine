@@ -23,9 +23,9 @@ leave --All--
 [background fade="0.0"]
 # for vibes
 audio -
-[wait time="4.0"]
+[wait time="4.0" skippable="true"]
 # back to hallway bg
-[background fade="0.0"]
+[background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
 join ellia (happy) center
 ellia (happy): Woah.
 leave ellia
@@ -68,28 +68,37 @@ mrs-williams: The manor… it watches, you must know. Rest well.
 leave mrs-williams
 # ellia's room pan
 [background fade="0.0"]
-[wait time="5.0"]
+[wait time="5.0" skippable="true"]
 # another part of bedroom?
 [background arg="res://Assets/room.png" fade="0.0"]
 # thoughts
 [style]
-ellia: It watches? What is that supposed to mean? There [i]are[/i] a lot of portraits here.
-ellia: Thank goodness they gave me clothing. I could not find any of my old uniforms before I came.
-ellia: I shall try it on tomorrow, for it is getting quite late.
-ellia: And I am filled with utter gratitude that they feed me. What considerate masters.
+ellia (confused): It watches? What is that supposed to mean? There [i]are[/i] a lot of portraits here.
+ellia (happy): Thank goodness they gave me clothing. I could not find any of my old uniforms before I came.
+ellia (happy): I shall try it on tomorrow, for it is getting quite late.
+ellia (happy): And I am filled with utter gratitude that they feed me. What considerate masters.
 # creaking
 [wait time="3.0"]
 audio -
-ellia: Such an old manor.
-ellia: The creaking is a bit unsettling…
-ellia: It feels like there’s someone right at my door.
+ellia (worried): Such an old manor.
+ellia (worried): The creaking is a bit unsettling…
+ellia (worried): It feels like there’s someone right at my door.
 ellia: zzzz...
 [background fade="0.0"]
 [wait time="3.5"]
+[background fade="0.0"]
 join ellia (shocked) left
 ellia (shocked): charles-
 leave ellia
 [background fade="0.0"]
-ellia: Oh, it was just a dream...
+[wait time="3.5" skippable="true"]
+[background arg="res://Assets/Backgrounds/dream.jpg" fade="0.0"]
+join ellia (shocked) left
+ellia (teary): charles-
+[wait time="1.0" skippable="true"]
+[background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
+ellia (sigh): Oh, it was just a dream...
 ellia: Everything is fine now
-ellia: Charles, where could you be?
+ellia (worried): Charles, where could you be?
+[background fade="0.0"]
+[end_timeline]

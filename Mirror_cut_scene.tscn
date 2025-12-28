@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cf5c287dccx34"]
+
+[ext_resource type="VideoStream" uid="uid://buheny0trc36e" path="res://Assets/Mirror_cut_scene-2.ogv" id="1_d8hqw"]
+[ext_resource type="Script" uid="uid://cncghcxvrgygt" path="res://mirror_cut_scene.gd" id="1_v5682"]
+
+[node name="MirrorCutScene" type="Node2D"]
+script = ExtResource("1_v5682")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_left = -1091.0
+offset_top = -809.0
+offset_right = 1084.0
+offset_bottom = 815.0
+stream = ExtResource("1_d8hqw")
+autoplay = true
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Timer" type="Timer" parent="."]

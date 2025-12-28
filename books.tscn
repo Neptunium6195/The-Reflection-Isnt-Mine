@@ -218,6 +218,17 @@ offset_right = 1532.0
 offset_bottom = 1537.0
 color = Color(0, 0, 0, 0.70980394)
 
+[node name="Label" type="Label" parent="."]
+offset_left = 90.0
+offset_top = 22.0
+offset_right = 2104.0
+offset_bottom = 277.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 60
+text = "Drag the books to match the order it appears in the mirror reflection!"
+
 [connection signal="area_entered" from="broom/Area2D" to="broom/Area2D" method="_on_area_entered"]
 [connection signal="body_entered" from="broom/Area2D" to="broom/Area2D" method="_on_body_entered"]
 [connection signal="body_shape_entered" from="broom/Area2D" to="broom/Area2D" method="_on_body_shape_entered"]

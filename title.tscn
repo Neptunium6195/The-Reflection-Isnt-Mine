@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://cq7igrn46iiu6"]
+[gd_scene load_steps=10 format=3 uid="uid://cq7igrn46iiu6"]
 
 [ext_resource type="Texture2D" uid="uid://c0de1a0ovdk82" path="res://Assets/Title Page/title-screen.png" id="1_kpexm"]
 [ext_resource type="Texture2D" uid="uid://vyl4utejgljy" path="res://Assets/Title Page/play.png" id="2_3xoar"]
 [ext_resource type="Script" uid="uid://02i6utxovaps" path="res://title.gd" id="2_oyqm6"]
+[ext_resource type="AudioStream" uid="uid://6d670u0xfo6x" path="res://Audio/Intro v5.mp3" id="4_3xoar"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kpexm"]
 content_margin_left = 170.0
@@ -94,5 +95,9 @@ grow_vertical = 2
 rotation = -0.38586998
 scale = Vector2(1.0112691, 1.2602106)
 color = Color(1, 1, 1, 0.16078432)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_3xoar")
+autoplay = true
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

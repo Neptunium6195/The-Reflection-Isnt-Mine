@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dcw0p2j13knia"]
+
+[ext_resource type="Script" uid="uid://dkjhg84y4achf" path="res://end.gd" id="1_n735c"]
+[ext_resource type="Texture2D" uid="uid://d270ttt38g5sl" path="res://Assets/endScreen.png" id="2_egc6y"]
+
+[node name="End" type="Node2D"]
+script = ExtResource("1_n735c")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 2160.0
+offset_bottom = 1620.0
+texture = ExtResource("2_egc6y")

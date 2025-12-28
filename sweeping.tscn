@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://bu286yrshtvir"]
+[gd_scene load_steps=12 format=3 uid="uid://bu286yrshtvir"]
 
 [ext_resource type="Script" uid="uid://64iw63t84nme" path="res://sweepingy.gd" id="1_t6a35"]
 [ext_resource type="Texture2D" uid="uid://dh70jfoq6ps77" path="res://Assets/dust.png" id="2_7upy8"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://diu5arl57dcor" path="res://Assets/dust2.png" id="4_t6a35"]
 [ext_resource type="Texture2D" uid="uid://grxlshbnvaeg" path="res://Assets/dust3.png" id="5_84w2q"]
 [ext_resource type="Script" uid="uid://k1htvoiqr2p8" path="res://area_2d_2.gd" id="6_7upy8"]
+[ext_resource type="FontFile" uid="uid://dtcglqpf40d34" path="res://Assets/Fonts/Radley-Regular.ttf" id="9_84w2q"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7upy8"]
 size = Vector2(597.1719, 192.4987)
@@ -412,6 +413,7 @@ position = Vector2(-287.889, -222.26355)
 shape = SubResource("RectangleShape2D_7upy8")
 
 [node name="Sprite2D26" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(1660, 1490)
 scale = Vector2(1.1990918, 0.6070198)
 texture = ExtResource("5_84w2q")
@@ -596,6 +598,19 @@ position = Vector2(-309.39343, -206.26355)
 shape = SubResource("RectangleShape2D_7upy8")
 
 [node name="Timer" type="Timer" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 1129.0
+offset_top = 1409.0
+offset_right = 2116.0
+offset_bottom = 1504.0
+theme_override_colors/font_color = Color(0.9234157, 0.85569715, 0.77746606, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("9_84w2q")
+theme_override_font_sizes/font_size = 60
+text = "Drag the broom over the dust clouds!"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="area_entered" from="Sprite2D4/Area2D2" to="Sprite2D4/Area2D2" method="_on_area_entered"]
 [connection signal="area_entered" from="Sprite2D/Area2D2" to="Sprite2D/Area2D2" method="_on_area_entered"]

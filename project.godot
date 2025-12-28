@@ -31,9 +31,7 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "bookPuzzle": "res://Timelines/bookPuzzle.dtl",
-"booksIntro": "res://Assets/Backgrounds/booksIntro.dtl",
 "day1a": "res://Timelines/day1a.dtl",
-"day1aa": "res://Timelines/day1aa.dtl",
 "day1b": "res://Timelines/day1b.dtl",
 "day2a": "res://Timelines/day2a.dtl",
 "day2b": "res://Timelines/day2b.dtl",
@@ -44,15 +42,12 @@ directories/dtl_directory={
 "day3b": "res://Timelines/day3b.dtl",
 "day4a": "res://Timelines/day4a.dtl",
 "day4b": "res://Timelines/day4b.dtl",
-"day4ba": "res://Assets/Backgrounds/day4ba.dtl",
 "day4c": "res://Timelines/day4c.dtl",
 "day4d": "res://Timelines/day4d.dtl",
 "day5a": "res://Timelines/day5a.dtl",
-"day5b": "res://Audio/day5b.dtl",
+"day5b": "res://Timelines/day5b.dtl",
 "elliaCharlesMeet": "res://Timelines/elliaCharlesMeet.dtl",
-"end": "res://Timelines/end.dtl",
-"intro": "res://Timelines/intro.dtl",
-"sweeping": "res://Timelines/sweeping.dtl"
+"intro": "res://Timelines/intro.dtl"
 }
 layout/style_directory={
 "": "res://Styles/newStyle.tres",
@@ -60,9 +55,7 @@ layout/style_directory={
 }
 layout/style_list=["res://Styles/newStyle.tres"]
 layout/default_style="res://Styles/newStyle.tres"
-variables={
-"portalEnding": false
-}
+variables={}
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01

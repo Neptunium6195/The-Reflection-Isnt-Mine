@@ -1,5 +1,5 @@
 # entrance hall bg
-[background fade="0.0"]
+[background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
 ellia: The housekeeper left a note mentioning the grandfather clock in the entrance hall needs to be fixed.
 # insert panning of entrance hall 
 # find the clock hand puzzle

@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 # entrance hall bg
-[background fade="0.0"]
+[background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
 ellia: While the lady is taking tea, I believe I can tidy the morning room now.
 # goes to morning room
-[background fade="0.0"]
+[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
 ellia: How ironic, a morning room that never seems to see the light of day.
 ellia: What a mess! The books are all over the floor.
 # picks one up
@@ -15,16 +15,16 @@ ellia: Lady Ludington?
 [wait time="2.0"]
 ellia: Oh, I should not pry. I must show respect for my masters. Though... why is it ripped?
 # gasp sound
-audio -
+audio "-"
 ellia: I must not look any further. Whatever occurs between her and her husband should not concern me.
-# puts parchmentg back into book
+# puts parchment back into book
 # goes back to cleaning
 ellia: The lady does have quite the eye.
-ellia:  These porcelains are the very ones the women in the city would not cease gushing over.
+ellia: These porcelains are the very ones the women in the city would not cease gushing over.
 ellia: I heard they were the finest in this side of the world.
 # puts book back and goes back to cleaning
 # sigh sound
-audio -
+audio "-"
 ellia: Finally, the extraordinary elegance of this room requires cleaning equally as delicate.
 ellia: I could not count the number of times I nearly shattered a statuette.
 # almost leaves but has a lightbulb moment
@@ -38,7 +38,7 @@ ellia: There's something else on this page.
 [background fade="0.0"]
 [wait time="2.5"]
 # sigh sound
-audio -
+audio "-"
 ellia: Only those foolish enough to believe such eccentricities.
 ellia: I doubt Sir Ludington is trapped in a mirror.
 ellia: Of all things, a mirror! What nonsense.
@@ -57,15 +57,15 @@ ellia: Even the kitchens are empty when I eat. Perhaps the cook takes respite of
 ellia: I shall find out more tomorrow.
 # blows out candle
 # blowing sound effect
-audio -
+audio "-"
 # change to a dark screen to show that candle has been blown out
 [background fade="0.0"]
 =======
 # boudoir doors/any bg
-[background fade="0.0"]
-ellia: While the lady is taking tea, I believe I can tidy the morning room now. 
+[background arg="res://Assets/closeddoor.png" fade="0.0"]
+ellia: While the lady is taking tea, I believe I can tidy the morning room now.
 # morning room dark
-[background fade="0.0"]
+[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
 [wait time="2.0"]
 ellia: How ironic, a morning room that never seems to see the light of day.
 ellia: I can hardly see in here, let me light a candle.
@@ -74,33 +74,33 @@ ellia: I can hardly see in here, let me light a candle.
 [wait time="1.0"]
 ellia: What a mess! The books are all over the floor.
 # animation of picking up book and opening it to parchment
-ellia: Lady Ludington? 
-ellia: Oh, I should not pry, I must show respect for my masters. 
+ellia: Lady Ludington?
+ellia: Oh, I should not pry, I must show respect for my masters.
 ellia: Though, why is it ripped?
 # cutscene of book flipping
 ellia: I must not look any further. Whatever occurs between her and her husband should not concern me.
 # morning room diff angle
 [background fade="0.0"]
 [wait time="1.0"]
-ellia: The lady does have quite the eye. 
+ellia: The lady does have quite the eye.
 ellia: These porcelains are the very ones the women in the city would not cease gushing over.
 ellia: I heard they were the finest in this side of the world.
 # cleaning animation??
 ellia: Finally, the extraordinary elegance of this room requires cleaning equally as delicate.
-ellia: I could not count the number of times I nearly shattered a statuette. 
+ellia: I could not count the number of times I nearly shattered a statuette.
 [wait time="2.0"]
 ellia: Wait.
 ellia: Surely no one will come in.
 ellia: I have a peculiar supposition I must resolve.
 # animation of turning over back of book to front 
 # custcene of chapter
-ellia: Only those foolish enough believe such eccentricities. 
-ellia: I doubt Sir Ludington is trapped in a mirror. 
-ellia: Of all things, a mirror! What nonsense. 
-ellia: Gentlemen will say anything to keep a woman in the home. How crude! 
-ellia: What was I thinking? 
+ellia: Only those foolish enough believe such eccentricities.
+ellia: I doubt Sir Ludington is trapped in a mirror.
+ellia: Of all things, a mirror! What nonsense.
+ellia: Gentlemen will say anything to keep a woman in the home. How crude!
+ellia: What was I thinking?
 ellia: There is a perfectly sound explanation for Lady Ludington’s concerns and it does not involve me.
-#morning room light
+# #morning room light
 [background fade="0.0"]
 [wait time="2.0"]
 ellia: I must polish the windows before evening, or I will not have enough time to properly prepare the bedchamber.

@@ -1,0 +1,49 @@
+# end of game puzzlle
+# show ellia in mirror reflection trapped
+ellia: Her appearance is mirrored...
+ellia: I suspect she has become an imagia. But I have to be certain.
+# inspect puzzle, click diff from first and second visit
+join ellia (worried) center
+ellia: I...
+leave ellia
+# imagia mrs newington reaches again
+# ellia takes engraver and stabs mrs newington
+# glass shattering sound
+audio -
+ellia: What just happened...
+ellia: What did I do? Is she dead?
+# mrs newington's body cracks and disappears
+ellia: Hoprfully Lady Ludington will not find out.
+ellia: This was an unexpected visit, after all.
+ellia: Oh no... What do I do?
+# leaves to hallway
+# bg change: hallway
+[background fade="0.0"]
+# spots lady
+# ellia hides behind a pillar/corner
+ellia: It is a veil... where does it lead to? Can I go through it? How is any of this possible?
+ellia: If I wait here long enough, I may be able to see her leave.
+ellia: Such an egregious folly, preposterous!
+ellia: But I cannot stop myself from believing that Sir Ludington is stuck in the mirrors.
+ellia: They must lead to a profoundly dreadful realm.
+ellia: I fear Charles may be in there... trapped in the mirror... I must do something!
+ellia: How... how do I save him, he who is trapped in another realm...
+ellia: I would have to enter the mirror yet I am not one of those beings.
+ellia: Perhaps, if I go through right after an imagia the veil will remain open...
+ellia: But... for how long? Since I would have to get back out somehow...
+ellia: I shall test my theory when Lady Ludington comes out, and count how long the veil stays open!
+ellia: Where should I hide? I must'nt get caught.
+ellia: Oh! That's a good spot...
+# portal sound
+audio -
+ellia: Here she comes!
+ellia: 1, 2, 3, 4, 5,
+# lady ludington leaves
+ellia: 6, 7, 8...
+# 4 min and 40 secs later
+ellia: 288, 289, 290
+# veil closes
+ellia: So about 4 minutes and 50 seconds.
+ellia: Giving me about 4 minutes and 30 seconds to get out safely...
+ellia: That is not very long, but is it even possible? What if I get trapped as well?
+ellia: It is perilous but, I would do anything for Charles...

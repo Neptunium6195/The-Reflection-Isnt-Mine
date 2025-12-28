@@ -1,4 +1,6 @@
+[background arg="res://Assets/Backgrounds/library.jpg" fade="0.0"]
 join ellia (confused) center
 ellia: Hm? The mirror reflection doesn't match the order of the books...
 ellia: What if I just reorder a bit...
+leave ellia
 [end_timeline]

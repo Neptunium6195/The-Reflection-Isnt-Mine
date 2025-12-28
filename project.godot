@@ -45,6 +45,7 @@ directories/dtl_directory={
 "day4c": "res://Timelines/day4c.dtl",
 "day4d": "res://Timelines/day4d.dtl",
 "day5a": "res://Timelines/day5a.dtl",
+"day5b": "res://Timelines/day5b.dtl",
 "elliaCharlesMeet": "res://Timelines/elliaCharlesMeet.dtl",
 "intro": "res://Timelines/intro.dtl"
 }
@@ -97,6 +98,8 @@ window/size/viewport_width=2160
 window/size/viewport_height=1620
 window/size/mode=1
 window/size/initial_position=Vector2i(1, 1)
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [editor_plugins]
 

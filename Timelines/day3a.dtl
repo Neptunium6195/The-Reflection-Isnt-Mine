@@ -1,10 +1,12 @@
 # ellia's room
+[background fade="0.0"]
 ellia: The portraits are to be dusted again today.
 ellia: I have not been in the drawing room since the day before yesterday and I must see that picture of Charles again.
 ellia: I have to be certain it is him.
 ellia: Lady Ludington did not seem to know me, but she may simply be putting up a ruse.
 ellia: I cannot believe I have not thought about that until now.
 # drawing room
+[background arg="res://Assets/Backgrounds/drawing-room-new.png" fade="0.0"]
 # drawing room portraits?
 ellia: Where is it? I vividly recall it placed right here.
 [wait time="2.0"]
@@ -33,17 +35,18 @@ ellia: It may not even be Charles after all, but someone who resembles him.
 # #sweeping (may be removed)
 ellia: The entrance hall is tidy, finally.
 # knock
-audio -
+audio "-"
 ellia: A guest?
 ellia: Surely not this early.
 ellia: I am not even certain the mistress has woken up yet.
 ellia: Mrs. Williams should answer the door.
 [wait time="2.0"]
 # #knock again
-audio -
+audio "-"
 ellia: It is rather impolite to keep a guest outside, especially in such darkness.
 ellia: I shall open the door; Mrs. Williams will understand.
 # #scene of mrs newington in doorway
+[background arg="res://Assets/openDoor.png" fade="0.0"]
 [wait time="3.0"]
 # change her name to guest or something
 join mrs-newington center
@@ -62,10 +65,12 @@ join ellia center
 ellia: My apologies, I shall take your card to the mistress.
 leave ellia
 # #stairs or morning room doors
+[background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
 ellia: How could I forget the calling cards?
 # morning room 
+[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
 # knock
-audio -
+audio "-"
 join ellia center
 ellia: Madam, there is a Mrs. Newington at the door.
 leave ellia
@@ -74,6 +79,7 @@ join lady (neutral) center
 lady: Thank you. Show her in here.
 leave lady
 # back to entrance hall
+[background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
 join ellia center
 ellia: She shall receive you in the morning room.
 leave ellia
@@ -87,16 +93,17 @@ ellia: I can clean the bedchamber now.
 ellia: The mistress should be done receiving her guest by now, it has been well over an hour.
 ellia: I shall tidy it again for her.
 # morning room
+[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
 ellia: I can still here them; it seems Lady Ludington is still occupied.
 ellia: I shall return later.
 # #silhouettes of characters
-join mrs-newington center
+join mrs-newington (silhouette) center
 mrs-newington: …ghosts living here.
 leave mrs-newington
 ellia: Ghosts? How absurd.
 join lady (silhouette) center
 lady: Do you desire to see one?
-lady (neutral): They are not merely ghosts, but reincarnations, I daresay.
+lady: They are not merely ghosts, but reincarnations, I daresay.
 lady: My dear Lottie has resided here with me since the… accident.
 leave lady
 join mrs-newington (silhouette) center
@@ -104,7 +111,7 @@ mrs-newington: You are not jesting, Navier?
 mrs-newington: You have been awfully unnatural today.
 mrs-newington: Is something the matter? You must know I consider you my closest companion.
 leave mrs-newington
-join lady center
+join lady (silhouette) center
 lady: As I do you, my dearest friend.
 lady: I am perfectly well at the moment, but lately I have been missing my children.
 lady: It was around this time of year when Lottie…
@@ -122,6 +129,7 @@ ellia: Mirror?
 ellia: I shall not listen any longer.
 ellia: They may discover me lurking and they will expel me back to the wretched city!
 # to kitchen 
+[background fade="0.0"]
 ellia: I shall take my lunch and check later if Mrs. Newington has gone.
 [wait time="2.5"]
 ellia: The cook is not here today, either.
@@ -129,6 +137,7 @@ ellia: Oddly enough, I may even be inclined to think that my meals are appearing
 [wait time="2.5"]
 ellia: Alright, I shall be on my way.
 # morning room
+[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
 ellia: Mrs. Newington has left already, I presume.
 ellia: Strange, I did not see her by the entrance hall.
 ellia: Lady Ludington must have shown her a different way.

@@ -1,6 +1,6 @@
 # ludingtons room bg
 [background fade="0.0"]
-ellia: I wonder if the masters know that they have a new maid. 
+ellia: I wonder if the masters know that they have a new maid.
 ellia: They must be people of importance and think very little of servants.
 ellia: I must say, I feel as if I am always being watched here...
 ellia: Am I to suffer the same fate as Charles?
@@ -8,43 +8,44 @@ ellia: Oh, I mustn't say such things. Charles cannot be dead.
 ellia: Mrs Williams' comment about the strange mirror must be getting to my head.
 ellia: This place is strange, the days are much longer here and the sky never seems to brighten.
 ellia: At first I thought the family abstained from direct sunlight for fear of losing their fairness...
-ellia: But even past the curtains I can never seem to make anything out except for darkness and the menacing forest outside. 
+ellia: But even past the curtains I can never seem to make anything out except for darkness and the menacing forest outside.
 ellia: It must the oaks that are blocking the sun...
-#bell
-audio -
+# #bell
+audio "-"
 # boudoir door
-[background fade="0.0"]
+[background arg="res://Assets/closeddoor.png" fade="0.0"]
 join lady (silhouette) center
 lady: Please have the tea tray brought in.
-leave lady 
-join ellia center 
+leave lady
+join ellia center
 ellia: Yes, ma’am.
-leave ellia 
-ellia: The tea tray? I do not remember anything about a tea order. 
+leave ellia
+ellia: The tea tray? I do not remember anything about a tea order.
 ellia: I should look in the kitchens.
-#goes to kitchens
+# #goes to kitchens
 [background fade="0.0"]
 ellia: Now where is the tea?
 # tea tray with note
 [background fade="0.0"]
-ellia: Ah, Mrs. Williams has done it already. 
+ellia: Ah, Mrs. Williams has done it already.
 ellia: Lady Ludington must take tea often at this time.
 # boudoir doors again
-[background fade="0.0"]
-join ellia
+[background arg="res://Assets/closeddoor.png" fade="0.0"]
+join ellia center
 ellia: The tea, ma’am.
-leave ellia 
+leave ellia
 join lady (silhouette) center
 lady: Bring it in.
-leave lady 
+leave lady
 # image of the tea tray set up
+[background fade="0.0"]
 # changed parts out for better flow/easier development
 [background fade="0.0"]
-[wait time="2"]
+[wait time="2.0"]
 # image of lady navier
 [background fade="0.0"]
-[wait time="3"]
+[wait time="3.0"]
 lady: Thank you.
 # boudoir doors
-[background fade="0.0"]
+[background arg="res://Assets/closeddoor.png" fade="0.0"]
 ellia: She does not seem to know who I am.

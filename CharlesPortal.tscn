@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://c2m8bnk3asvij"]
+[gd_scene load_steps=7 format=3 uid="uid://c2m8bnk3asvij"]
 
 [ext_resource type="Texture2D" uid="uid://bopmin0krieab" path="res://Assets/PortalSprites/charlesFront.png" id="1_6vt1x"]
 [ext_resource type="Script" uid="uid://c6ddwhcvcmdjy" path="res://charles_portal.gd" id="1_41wpf"]
 [ext_resource type="Texture2D" uid="uid://7ysk2ucnroo2" path="res://Assets/PortalSprites/charlesSide.png" id="3_41wpf"]
+[ext_resource type="Texture2D" uid="uid://bed3onpdibvcv" path="res://Assets/PortalSprites/IMG_0076.PNG" id="4_lkkiw"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_lkkiw"]
 animations = [{
@@ -26,11 +27,19 @@ animations = [{
 "loop": true,
 "name": &"default",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_lkkiw")
+}],
+"loop": true,
+"name": &"shadow",
+"speed": 5.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1vl8d"]
-radius = 24.0
-height = 106.0
+radius = 71.0
+height = 322.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 disable_mode = 2
@@ -40,14 +49,14 @@ movement_speed = 400.0
 
 [node name="sprite" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(1370.84, 833.83997)
-scale = Vector2(0.16, 0.16)
+position = Vector2(354.00003, 530.5)
+scale = Vector2(0.15234376, 0.17431642)
 sprite_frames = SubResource("SpriteFrames_lkkiw")
-animation = &"CharlesSide"
+animation = &"CharlesFront"
 autoplay = "CharlesFront"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1371.84, 837.83997)
+position = Vector2(358, 525)
 shape = SubResource("CapsuleShape2D_1vl8d")
 
 [node name="Camera2D" type="Camera2D" parent="."]

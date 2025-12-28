@@ -1,0 +1,32 @@
+[background arg="res://Assets/Backgrounds/drawing-room-new.png" fade="0.0"]
+join ellia (confused) center
+ellia (confused): What’s next again? Dust the paintings?
+# entrance hall gallery wall image
+[background arg="res://Assets/Backgrounds/drawing-room-charles-portrait-1.png" fade="0.0"]
+[wait time="2.5"]
+ellia (happy): They are quite dazzling… though all of these portraits are taken inside the manor; does the family not like the outdoor scenery?
+# same bg js zoomed into charles' portrait
+[background arg="res://Assets/Backgrounds/charles-portrait-1-zoom-new.png" fade="0.0"]
+[wait time="3.0"]
+ellia (confused): Charles? What is he doing here????
+ellia (confused): This is recent… Was he brought here?
+ellia: This should not be here, he never mentioned anything about being acquainted with an upper class family.
+ellia: Did he anger them perhaps? Is he here now?
+ellia (worried): Oh, what are they doing to him?
+# same bg js zoomed into portrait next to charles'
+[background arg="res://Assets/Backgrounds/charles-portrait-1-zoom-new.png" fade="0.0"]
+[wait time="2.5"]
+ellia (sigh): I must finish dusting.
+# back to charles' portrait that has changed
+[background arg="res://Assets/Backgrounds/charles-portrait-2-zoom-new.png" fade="0.0"]
+[wait time="3.0"]
+ellia (shocked): I am certain it was not like that before.
+ellia (worried): Whoever placed this here must be trying to unsettle me.
+ellia (confused): Do they know about my relation to him? But what does it matter, I should not be of any importance to these people.
+ellia (sigh): I have no money, no connections.
+ellia (worried): Oh, what have they done to you, Charles?
+[wait time="3.0"]
+ellia (worried): I must find answers.
+ellia (worried): It cannot be a coincidence that I ended up here.
+ellia (worried): He could be on the precipice of death, for all I know.
+[end_timeline]

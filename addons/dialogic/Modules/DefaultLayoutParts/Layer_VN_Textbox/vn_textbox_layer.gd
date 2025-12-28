@@ -235,6 +235,7 @@ func _apply_text_settings() -> void:
 	if !bold_font.is_empty():
 		dialog_text.add_theme_font_override(&"bold_font", load(bold_font) as Font)
 	if !italics_font.is_empty():
+		await get_tree().create_timer(1.0).timeout		
 		dialog_text.add_theme_font_override(&"italics_font", load(italics_font) as Font)
 	if !bold_italics_font.is_empty():
 		dialog_text.add_theme_font_override(&"bold_italics_font", load(bold_italics_font) as Font)

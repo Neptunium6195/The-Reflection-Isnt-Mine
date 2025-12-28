@@ -1,0 +1,11 @@
+# goes over to dust books
+join ellia (worried) center
+[background arg="res://Assets/Backgrounds/library.jpg" fade="0.0"]
+ellia (worried): I simply cannot get all of this dusted by lunch.
+ellia: I must inform Mrs. Williams and I trust she does not get angry.
+ellia (confused): Where shall I find her? I have not seen her since the first night.
+ellia (worried): There must be a room for her somewhere.
+ellia (confused): It is not improper for me to go looking for it?
+ellia (worried): As a servant, it is my duty to be acquainted with the manor, after all.
+# sees herself in the mirror
+[end_timeline]

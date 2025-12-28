@@ -1,49 +1,54 @@
 # entrance hall bg
-[background fade="0.0"]
-ellia: The paintings are dusted.
-ellia: The only thing left in this hall is the mirror.
+[background arg="res://Assets/Backgrounds/drawing-room-gallery-wall-zoom.png" fade="0.0"]
+join ellia (happy) center
+ellia (sigh): The paintings are dusted.
+ellia (happy): The only thing left in this hall is the mirror.
 # mirror center view
-[background fade="0.0"]
+[background arg="res://Assets/mirror.png" fade="0.0"]
 [wait time="2.5"]
-ellia: The gilding for the frame is exquisite.
-ellia: And what a large mirror.
-ellia: I cannot even see the top of it from here.
+join ellia center
+ellia (happy): The gilding for the frame is exquisite.
+ellia (happy): And what a large mirror.
+ellia (happy): I cannot even see the top of it from here.
 # mirror cleaning puzzle (have not created yet)
-[call node="GameController" method="start_drag_minigame"]
 [wait time="1.0"]
-ellia: All done.
+ellia (sigh): All done.
+leave ellia
 join charles center
-charles: Ellia…
+charles (silhouette): Ellia…
 leave charles
 join ellia center
-ellia: Who is there?
+ellia (confused): Who is there?
 leave ellia
 # cutscene for mirror fingerprints
-[call node="CutsceneController" method="play_cutscene"]
 [wait time="1.0"]
-ellia: What…? Where did the fingerprints even come from?
-ellia: I just cleaned it.
-ellia: I swear someone called my name, yet it’s empty…
-ellia: There is something bizarre about this estate.
+ellia (confused): What…? Where did the fingerprints even come from?
+ellia (confused): I just cleaned it.
+ellia (worried): I swear someone called my name, yet it’s empty…
+ellia (worried): There is something bizarre about this estate.
 # zoom into where fingerprints lead
-ellia: This sigil seems familiar.
-ellia: I am quite convinced I have seen it somewhere… Is it the seal of the Ludingtons?
-ellia: It is a bit simple to be one, though I am not certain what it should look like.
+ellia (confused): This sigil seems familiar.
+ellia (confused): I am quite convinced I have seen it somewhere… Is it the seal of the Ludingtons?
+ellia (confused): It is a bit simple to be one, though I am not certain what it should look like.
 # haunting music
-audio -
+join ellia (confused) center
+audio "res://Audio/Clock v3 (x3).mp3"
 # clock bongs nine times?
 audio -
-[wait time="9.0"]
-ellia: Oh my, it is already time to tidy the rooms.
+[wait time="7.5"]
+ellia (sigh): Oh my, it is already time to tidy the rooms.
 # ludingtons bedroom doors
-[background fade="0.0"]
+[background arg="res://Assets/closeddoor.png" fade="0.0"]
 [wait time="1.5"]
 # knock sound
-audio -
-[wait time="2.0"]
-ellia: I do not hear anything. I guess it is empty.
+audio "res://Audio/Knock v1 (slow).mp3"
+[wait time="1.0"]
+ellia (confused): No response... I guess it is empty.
 # pan of bedroom
-[background fade="0.0"]
-[wait time="2.5"]
+[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
+[wait time="1.0"]
+Meanwhile in the other hallway....
 # cutscene for foggy mirror message
-[call node="CutsceneController" method="play_cutscene"]
+[background fade="0.0"]
+The next day...
+[end_timeline]

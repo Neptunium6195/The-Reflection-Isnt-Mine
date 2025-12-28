@@ -1,3 +1,4 @@
-join ellia (ellia-confused) leftmost
-ellia (confused): What does it say?...
-ellia (confused): dfhush
+[background arg="res://Assets/Backgrounds/library.jpg" fade="0.0"]
+join ellia (confused) leftmost
+ellia (confused): What does it mean by "mark the glass"?...
+[end_timeline]

@@ -40,14 +40,14 @@ overrides = {
 "box_margin_bottom": "25.0",
 "box_panel": "\"res://Styles/dialogueBox.tres\"",
 "box_size": "Vector2(2000, 250)",
-"italics_font": "\"res://Assets/Radley-Italic.ttf\"",
+"italics_font": "\"res://Assets/Fonts/Radley-Italic.ttf\"",
 "name_label_box_modulate": "Color(0.9490196, 0.9411765, 0.92941177, 1)",
 "name_label_box_offset": "Vector2(-20, -110)",
 "name_label_box_panel": "\"res://Styles/nameBox.tres\"",
 "name_label_custom_font_size": "50.0",
 "name_label_font": "\"res://Assets/Radley-Regular.ttf\"",
 "name_label_use_character_color": "false",
-"normal_font": "\"res://Assets/Radley-Regular.ttf\"",
+"normal_font": "\"res://Assets/Fonts/Radley-Regular.ttf\"",
 "text_custom_color": "Color(0, 0, 0, 1)",
 "text_size": "50.0"
 }
@@ -83,4 +83,4 @@ layer_info = {
 "16": SubResource("Resource_g4kwk"),
 "17": SubResource("Resource_r3pxr")
 }
-metadata/_latest_layer = ""
+metadata/_latest_layer = "13"

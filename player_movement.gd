@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var movement_speed: float = 500.0
+@export var movement_speed: float = 600.0
 var character_direction: Vector2
 @onready var sprite: AnimatedSprite2D = $sprite
 
@@ -23,6 +23,3 @@ func _physics_process(delta: float) -> void:
 			sprite.animation = "elliaNormal"
 
 	move_and_slide() 
-
-func _on_area_2d_area_entered(area: Area2D) -> void:
-	pass # Replace with function body.

@@ -1,0 +1,4 @@
+[background arg="res://Assets/Backgrounds/drawing-room-new.png" fade="0.0"]
+join ellia (happy) center
+ellia: All done!
+[end_timeline]

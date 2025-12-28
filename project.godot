@@ -97,8 +97,6 @@ window/size/viewport_width=2160
 window/size/viewport_height=1620
 window/size/mode=1
 window/size/initial_position=Vector2i(1, 1)
-window/stretch/mode="viewport"
-window/stretch/aspect="keep_height"
 
 [editor_plugins]
 

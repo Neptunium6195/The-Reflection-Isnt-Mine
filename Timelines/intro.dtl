@@ -21,8 +21,7 @@ leave --All--
 [background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
 # show portrait
 # for vibes
-audio "-
-"
+audio -
 [wait time="4.0" skippable="true"]
 # back to hallway bg
 [background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
@@ -68,35 +67,35 @@ mrs-williams: The manor… it watches, you must know. Rest well.
 leave mrs-williams
 # ellia's room pan
 [background fade="0.0"]
-[wait time="5.0" skippable="true"]
+[wait time="2.0" skippable="true"]
 # another part of bedroom?
 [background arg="res://Assets/room.png" fade="0.0"]
 # thoughts
 [style]
+join ellia center
 ellia (confused): It watches? What is that supposed to mean? There [i]are[/i] a lot of portraits here.
 ellia (happy): I am filled with utter gratitude that they feed me. What considerate masters.
 # creaking
+audio "res://Audio/creaking-wood-199971-[AudioTrimmer.com].mp3"
 [wait time="3.0"]
-audio "-
-"
 ellia (worried): Such an old manor.
 ellia (worried): The creaking is a bit unsettling…
-ellia (worried): It feels like there’s someone right at my door.
-[background fade="0.0"]
-[wait time="3.5"]
-[background fade="0.0"]
-join ellia (shocked) left
-ellia (shocked): Charles-
+ellia (worried): It feels like there’s someone right at my door...
 leave ellia
-[background fade="0.0"]
+[background fade="1.0"]
+[wait time="3.5"]
+[background fade="0.1"]
 [wait time="3.5" skippable="true"]
 [background arg="res://Assets/Backgrounds/dream.jpg" fade="0.0"]
 join ellia (shocked) left
-ellia (teary): Charles-
 [wait time="1.0" skippable="true"]
+ellia (teary): Charles-
+[background fade="1.0"]
+[wait time="2.0" skippable="true"]
 [background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
 ellia (sigh): Oh, it was just a dream...
 ellia: Everything is fine now
 ellia (worried): Charles, where could you be?
+leave ellia
 [background fade="0.0"]
 [end_timeline]

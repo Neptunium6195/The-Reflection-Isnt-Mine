@@ -20,7 +20,8 @@ ellia (sigh): I must finish dusting.
 # back to charles' portrait that has changed
 [background arg="res://Assets/Backgrounds/charles-portrait-2-zoom-new.png" fade="0.0"]
 [wait time="3.0"]
-ellia (shocked): I am certain it was not like that before.
+ellia (shocked): Wha-
+ellia (shocked): His portrait changed... I am certain it was not like that before.
 ellia (worried): Whoever placed this here must be trying to unsettle me.
 ellia (confused): Do they know about my relation to him? But what does it matter, I should not be of any importance to these people.
 ellia (sigh): I have no money, no connections.

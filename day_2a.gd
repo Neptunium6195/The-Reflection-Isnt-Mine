@@ -20,7 +20,7 @@ func _ready() -> void:
 	await Dialogic.timeline_ended
 	Dialogic.start("day3b")
 	await Dialogic.timeline_ended
-	get_tree().change_scene_to_file("res://day4.gd")
+	get_tree().change_scene_to_file("res://day4.tscn")
 	pass # Replace with function body.
 
 

@@ -30,7 +30,7 @@ mrs-newington: Well, I shall take you to her and tell her what a disobedient gir
 mrs-newington: She will surely punish you.
 # mrs newington reaches for ellia
 - Accept punishment. It is best for you to lay low, anyway.
-	set {portalEnding} = false
+	set {Dialogic} = false
 	[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
 	join mrs-newington rightmost [mirrored="true"]
 	mrs-newington: She lied to me about your presence.

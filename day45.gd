@@ -9,7 +9,8 @@ func _ready() -> void:
 	await Dialogic.timeline_ended
 	Dialogic.start("day5a")
 	await Dialogic.timeline_ended
-	if Dialogic.VAR.portalEnding == true:
+	var endBool = Dialogic.VAR.portalEnding
+	if endBool == true:
 		get_tree().change_scene_to_file("res://node_2d.tscn")
 	else:
 		get_tree().change_scene_to_file("res://end.tscn")

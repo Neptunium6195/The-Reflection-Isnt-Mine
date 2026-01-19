@@ -3,7 +3,7 @@ join ellia (confused) center
 ellia (confused): What’s next again? Dust the paintings?
 # entrance hall gallery wall image
 [background arg="res://Assets/Backgrounds/drawing-room-charles-portrait-1.png" fade="0.0"]
-[wait time="2.5"]
+[wait time="0.5"]
 ellia (happy): They are quite dazzling… though all of these portraits are taken inside the manor; does the family not like the outdoor scenery?
 # same bg js zoomed into charles' portrait
 [background arg="res://Assets/Backgrounds/charles-portrait-1-zoom-new.png" fade="0.0"]

@@ -1,10 +1,13 @@
 # her room
-[background fade="0.0"]
-ellia: I am dreadfully fatigued. 
-ellia: Am I to do all these tasks alone? There must be another servant here. 
-ellia: Though, I have not seen anyone but Mrs. Williams and the lady since my arrival. 
-ellia: I wonder if Charles is here at all. 
+[background arg="res://Assets/Backgrounds/ellia-bedroom.png" fade="0.1"]
+join ellia
+ellia (sigh): I am dreadfully fatigued. 
+ellia (worried): Am I to do all these tasks alone? There must be another servant here. 
+ellia (worried): Though, I have not seen anyone but Mrs. Williams and the lady since my arrival. 
+ellia (confused): I wonder if Charles is here at all. 
 ellia: Even the kitchens are empty when I eat. Perhaps the cook takes respite often. 
 ellia: I shall find out more tomorrow. 
+leave ellia
 # ending 
-[background fade="0.0"]
+[background fade="1.0"]
+[end_timeline]

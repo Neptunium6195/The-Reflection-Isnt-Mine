@@ -1,49 +1,53 @@
 # ellia's room
-[background fade="0.0"]
-ellia: The portraits are to be dusted again today.
+[background arg="res://Assets/Backgrounds/ellia-bedroom.png" fade="0.0"]
+join ellia center
+ellia (sigh): The portraits are to be dusted again today.
 ellia: I have not been in the drawing room since the day before yesterday and I must see that picture of Charles again.
-ellia: I have to be certain it is him.
+ellia (confused): I have to be certain it is him.
 ellia: Lady Ludington did not seem to know me, but she may simply be putting up a ruse.
-ellia: I cannot believe I have not thought about that until now.
+ellia (sigh): I cannot believe I have not thought about that until now.
 # drawing room
-[background arg="res://Assets/Backgrounds/drawing-room-new.png" fade="0.0"]
+[background arg="res://Assets/Backgrounds/drawing-room-new.png" fade="0.5"]
 # drawing room portraits?
-ellia: Where is it? I vividly recall it placed right here.
+ellia (confused): Where is it? I vividly recall it placed right here.
 [wait time="2.0"]
-ellia: Mrs. Williams? I had almost forgotten what she looked like.
+ellia (confused): Mrs. Williams? I had almost forgotten what she looked like.
 ellia: A portrait of a housekeeper? That is strange.
-ellia: Mrs. Williams seems to be a devoted member of the household; the Ludingtons must be appreciative towards the help.
-ellia: Though, Lady Ludington barely acknowledged me.
-ellia: Perhaps it is because I have not been here nearly as long as Mrs. Williams\: she looks as if she has worked here her whole life.
+ellia (confused): Mrs. Williams seems to be a devoted member of the household; the Ludingtons must be appreciative towards the help.
+ellia (sigh): Though, Lady Ludington barely acknowledged me.
+ellia: Perhaps it is because I have not been here nearly as long as Mrs. Williams, she looks as if she has worked here her whole life.
 [wait time="1.5"]
-ellia: Then, pray tell, why did Charles have a portrait?
+ellia (confused): Then, pray tell, why did Charles have a portrait?
 ellia: It is a shock to me that he worked here, even more so as a longtime servant.
 ellia: He told me he had solely labored in factories.
 ellia: He looked exactly the same as when I last saw him, yet a week is not nearly enough time to paint a portrait of such expertise.
 ellia: Where must this portrait be?
-ellia: It is imperative I examine it again.
+ellia (sigh): It is imperative I examine it again.
 [wait time="1.5"]
-ellia: It does not make sense as to why Charles would have such an exquisite portrait of himself commissioned and the instance I see it, it is gone.
-ellia: There is much I do not know.
-ellia: Mayhaps the master saw it fit to change the subject, as Mrs. Williams is the newly esteemed member of the household.
-ellia: It appears they do not know about my relation to Charles.
-ellia: Or it is because they have been watching me secretly.
+ellia (worried): It does not make sense as to why Charles would have such an exquisite portrait of himself commissioned and the instance I see it, it is gone.
+ellia (sigh): There is much I do not know.
+ellia (confused): Perhaps the master saw it fit to change the subject, as Mrs. Williams is the newly esteemed member of the household.
+ellia (confused): It appears they do not know about my relation to Charles.
+ellia (worried): Or it is because they have been watching me secretly.
 [wait time="1.5"]
-ellia: Oh, what am I thinking?
-ellia: There is an assuredly reasonable explanation as to why Charles is here.
+ellia (sigh): Oh, what am I thinking?
+ellia (happy): There is an assuredly reasonable explanation as to why Charles is here.
 ellia: It may not even be Charles after all, but someone who resembles him.
+leave ellia
+[background arg="res://Assets/Backgrounds/entrance-hall.jpg" fade="0.5"]
 # #sweeping (may be removed)
-ellia: The entrance hall is tidy, finally.
+join ellia center
+ellia (sigh): The entrance hall is tidy, finally.
 # knock
-audio "-"
-ellia: A guest?
+audio "res://Audio/Knock v1 (slow).mp3"
+ellia (confused): A guest?
 ellia: Surely not this early.
 ellia: I am not even certain the mistress has woken up yet.
 ellia: Mrs. Williams should answer the door.
 [wait time="2.0"]
 # #knock again
-audio "-"
-ellia: It is rather impolite to keep a guest outside, especially in such darkness.
+audio "res://Audio/Knock v1 (slow).mp3"
+ellia (sigh): It is rather impolite to keep a guest outside, especially in such darkness.
 ellia: I shall open the door; Mrs. Williams will understand.
 # #scene of mrs newington in doorway
 [background arg="res://Assets/openDoor.png" fade="0.0"]
@@ -54,7 +58,7 @@ mrs-newington: Good morning.
 mrs-newington: I should like a word with Lady Ludington, please.
 leave mrs-newington
 join ellia center
-ellia: Good morning, madam.
+ellia (happy): Good morning, madam.
 ellia: I shall see if she is receiving guests at this moment.
 leave ellia
 [wait time="1.0"]
@@ -62,15 +66,17 @@ join mrs-newington center
 mrs-newington: Do you not require my card?
 leave mrs-newington
 join ellia center
-ellia: My apologies, I shall take your card to the mistress.
+ellia (worried): My apologies, I shall take your card to the mistress.
 leave ellia
 # #stairs or morning room doors
-[background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
-ellia: How could I forget the calling cards?
+[background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.5"]
+join ellia center
+ellia (sigh): How could I forget the calling cards?
+leave ellia
 # morning room 
-[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
+[background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.5"]
 # knock
-audio "-"
+audio "res://Audio/Knock v1 (slow).mp3"
 join ellia center
 ellia: Madam, there is a Mrs. Newington at the door.
 leave ellia
@@ -79,22 +85,23 @@ join lady (neutral) center
 lady: Thank you. Show her in here.
 leave lady
 # back to entrance hall
-[background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
-join ellia center
-ellia: She shall receive you in the morning room.
+[background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.5"]
+join ellia left
+ellia (happy): She shall receive you in the morning room.
 leave ellia
-join mrs-newington center
+join mrs-newington right
 mrs-newington: Thank you, dear.
 leave mrs-newington
-ellia: I can clean the bedchamber now.
+ellia (sigh): I can clean the bedchamber now.
+leave ellia 
+[background arg="res://Assets/Backgrounds/drawing-room.jpg"]
 # ludington bedroom
 # #possible custcene of her cleaning
-[wait time="5.0"]
 ellia: The mistress should be done receiving her guest by now, it has been well over an hour.
 ellia: I shall tidy it again for her.
 # morning room
 [background arg="res://Assets/Backgrounds/morning-room.jpg" fade="0.0"]
-ellia: I can still here them; it seems Lady Ludington is still occupied.
+ellia: I can still hear them; it seems Lady Ludington is still occupied.
 ellia: I shall return later.
 # #silhouettes of characters
 join mrs-newington (silhouette) center

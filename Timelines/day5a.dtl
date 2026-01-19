@@ -10,9 +10,10 @@ ellia: But I must open the door, or she may come downstairs to see the visitor h
 ellia: I have been avoiding her the whole day and I cannot sacrifice myself now.
 # opens door
 # door creaks
-audio -
+audio "res://Audio/door-creaking-335491-[AudioTrimmer.com].mp3"
 [background arg="res://Assets/Backgrounds/entrance-hall.jpg" fade="0.0"]
 join mrs-newington rightmost [mirrored="true"]
+[wait time="0.5"]
 mrs-newington: Why, hello again. I am here to call upon Lady Ludington.
 join ellia leftmost
 ellia: May I have your card?
@@ -81,7 +82,9 @@ mrs-newington: She will surely punish you.
 	leave mrs-newington
 	join ellia (worried) right
 	ellia: Okay
+	audio "res://Audio/Portal swoosh v3.mp3"
 	ellia: Here I go...
+	[background fade="0.5"]
 	[end_timeline]
 
 # ellia dragged to drawing room

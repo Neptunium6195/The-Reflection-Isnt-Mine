@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cycqbmxvugdaj"
+path="res://.godot/imported/Portal swoosh v3.mp3-45532994ebfe176dcf1f03529ab4f5bc.mp3str"
+
+[deps]
+
+source_file="res://Audio/Portal swoosh v3.mp3"
+dest_files=["res://.godot/imported/Portal swoosh v3.mp3-45532994ebfe176dcf1f03529ab4f5bc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

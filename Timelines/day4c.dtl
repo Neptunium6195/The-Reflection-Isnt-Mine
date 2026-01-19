@@ -1,23 +1,26 @@
 # boudoir
 [background arg="res://Assets/room.png" fade="0.0"]
+join ellia (confused) left
 ellia: I wonder if they will ever give me work in the gardens.
 ellia: They must have gardens here.
 ellia: I do not think I have seen a home so grand without an equally grand courtyard.
 [wait time="3.0"]
 # vanity bg
 [background fade="0.0"]
-ellia: The vanity is so intricately engraved.
-ellia: I wonder if it was a gift from Sir Ludington.
-ellia: This room is much more beautiful than the rest and it compliments Lady Ludington in opulence.
+ellia (happy): The vanity is so intricately engraved.
+ellia (confused): I wonder if it was a gift from Sir Ludington.
+ellia (happy): This room is much more beautiful than the rest and it compliments Lady Ludington in opulence.
+[wait time="1.0"]
 # mirror
 # starts crying
-ellia: Am I crying?
-ellia: Oh, this is assuredly not me. Who are you?
+ellia (shocked): Am I crying?
+ellia (confused): Oh, this is assuredly not me. Who are you?
 unknown: You.
 unknown: But better, of course.
-ellia: What do I do?
+ellia (shocked): What do I do?
 # reflection disappears (???)
-ellia: I don’t know what is worse… having a reflection or not seeing anything in the mirror.
-ellia: I cannot bear to look through a mirror any longer.
-ellia: It scares me so.
+ellia (worried): I don’t know what is worse… having a reflection or not seeing anything in the mirror.
+ellia (sigh): I cannot bear to look through a mirror any longer.
+ellia (worried): It scares me so.
+[background fade="0.5"]
 [end_timeline]

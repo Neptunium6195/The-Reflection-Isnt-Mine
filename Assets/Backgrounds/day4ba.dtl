@@ -8,4 +8,6 @@ ellia (worried): There must be a room for her somewhere.
 ellia (confused): It is not improper for me to go looking for it?
 ellia (worried): As a servant, it is my duty to be acquainted with the manor, after all.
 # sees herself in the mirror
+leave ellia
+[background fade="0.5"]
 [end_timeline]

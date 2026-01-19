@@ -72,12 +72,16 @@ leave mrs-williams
 [background arg="res://Assets/room.png" fade="0.0"]
 # thoughts
 [style]
-join ellia center
 ellia (confused): It watches? What is that supposed to mean? There [i]are[/i] a lot of portraits here.
 ellia (happy): I am filled with utter gratitude that they feed me. What considerate masters.
 # creaking
+leave ellia
+[background fade="0.7"]
+[background arg="res://Assets/Backgrounds/ellia-bedroom.png" fade="0.7"]
+join ellia center
 audio "res://Audio/creaking-wood-199971-[AudioTrimmer.com].mp3"
-[wait time="3.0"]
+ellia (confused): So this is my room,
+[wait time="0.5"]
 ellia (worried): Such an old manor.
 ellia (worried): The creaking is a bit unsettling…
 ellia (worried): It feels like there’s someone right at my door...
@@ -90,12 +94,16 @@ leave ellia
 join ellia (shocked) left
 [wait time="1.0" skippable="true"]
 ellia (teary): Charles-
+leave ellia
+[wait time="1.5" skippable="true"]
 [background fade="1.0"]
-[wait time="2.0" skippable="true"]
+[wait time="1.0" skippable="true"]
 [background arg="res://Assets/Backgrounds/entrance-hall-wall.png" fade="0.0"]
+join ellia (teary) center
 ellia (sigh): Oh, it was just a dream...
 ellia: Everything is fine now
 ellia (worried): Charles, where could you be?
 leave ellia
-[background fade="0.0"]
+[wait time="1.0" skippable="true"]
+[background fade="1.0"]
 [end_timeline]

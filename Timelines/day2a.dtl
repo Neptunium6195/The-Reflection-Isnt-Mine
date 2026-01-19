@@ -10,7 +10,7 @@ ellia: What...? I did not smile.
 # bg change: back to normal expression in the mirror
 [background fade="0.0"]
 [wait time="2.5"]
-ellia: Huh. Am i seeing things?
+ellia: Huh. Am I seeing things?
 ellia: I am sure my face did not move. It must be my anxieties.
 # ellia looks away
 update ellia center [mirrored="true"]
@@ -23,6 +23,8 @@ leave ellia
 join ellia center
 [wait time="1.5"]
 ellia: What is going on?
+leave ellia
+[background fade="0.1" arg=""]
 Reflection: Your face fits me...
 update ellia (worried) center
 ellia: Hello? Who said that? What is happening?

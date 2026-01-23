@@ -1,8 +1,7 @@
-
 [gd_scene load_steps=10 format=3 uid="uid://cjgemh5flqt5k"]
 
 [ext_resource type="Script" uid="uid://cfg0bnqil6r1u" path="res://dial.gd" id="1_l5ccq"]
-[ext_resource type="Script" uid="uid://r2q4ce7nm6ko" path="res://lock.gd" id="1_rmqde"]
+[ext_resource type="Script" path="res://lock.gd" id="1_rmqde"]
 [ext_resource type="Texture2D" uid="uid://bqvgqdlg0vj1a" path="res://Assets/Lock Minigame/ellia-bed-box.png" id="2_6aaqj"]
 [ext_resource type="Texture2D" uid="uid://dkthe5b1flmy6" path="res://Assets/Lock Minigame/dial-numbers.png" id="4_ebkbn"]
 [ext_resource type="Texture2D" uid="uid://cxonlwj8is80g" path="res://Assets/Lock Minigame/box-overlay.png" id="5_d4h6p"]
@@ -23,7 +22,6 @@ size = Vector2(86.5, 119.5)
 script = ExtResource("1_rmqde")
 
 [node name="overlay" type="Sprite2D" parent="."]
-visible = false
 z_index = 10
 position = Vector2(1080, 810)
 texture = ExtResource("5_d4h6p")
@@ -34,11 +32,12 @@ offset_bottom = 40.0
 texture = ExtResource("2_6aaqj")
 
 [node name="dial1" type="Node2D" parent="."]
-position = Vector2(847, 808)
+position = Vector2(848, 808)
 
 [node name="Sprite2D" type="Sprite2D" parent="dial1"]
-position = Vector2(39, 556)
+position = Vector2(20, 8)
 texture = ExtResource("4_ebkbn")
+centered = false
 
 [node name="Area2D" type="Area2D" parent="dial1"]
 position = Vector2(-8, -6)
@@ -52,8 +51,9 @@ shape = SubResource("RectangleShape2D_p554e")
 position = Vector2(992, 804)
 
 [node name="Sprite2D" type="Sprite2D" parent="dial2"]
-position = Vector2(44, 561)
+position = Vector2(20, 8)
 texture = ExtResource("4_ebkbn")
+centered = false
 
 [node name="Area2D" type="Area2D" parent="dial2"]
 position = Vector2(0, 4)
@@ -67,8 +67,9 @@ shape = SubResource("RectangleShape2D_o2523")
 position = Vector2(1140, 823)
 
 [node name="Sprite2D" type="Sprite2D" parent="dial3"]
-position = Vector2(43, 549)
+position = Vector2(20, -10)
 texture = ExtResource("4_ebkbn")
+centered = false
 
 [node name="Area2D" type="Area2D" parent="dial3"]
 script = ExtResource("1_l5ccq")
@@ -81,8 +82,9 @@ shape = SubResource("RectangleShape2D_ocv6b")
 position = Vector2(1271, 810)
 
 [node name="Sprite2D" type="Sprite2D" parent="dial4"]
-position = Vector2(39, 555)
+position = Vector2(20, 8)
 texture = ExtResource("4_ebkbn")
+centered = false
 
 [node name="Area2D" type="Area2D" parent="dial4"]
 script = ExtResource("1_l5ccq")

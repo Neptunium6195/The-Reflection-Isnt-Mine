@@ -30,7 +30,6 @@ directories/dch_directory={
 "unknown": "res://Characters/unknown.dch"
 }
 directories/dtl_directory={
-"Audio/day5b": "res://Audio/day5b.dtl",
 "Timelines/day5b": "res://Timelines/day5b.dtl",
 "bookPuzzle": "res://Timelines/bookPuzzle.dtl",
 "booksIntro": "res://Assets/Backgrounds/booksIntro.dtl",

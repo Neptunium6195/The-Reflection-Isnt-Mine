@@ -1,17 +1,18 @@
 extends Node2D
 
-@export var correct_code := [1, 0, 2, 1]
+@export var correct_code := [0, 9, 2, 6]
+
+
+# getter method?
+func get_entered_code() -> Array:
+	var current_code := []
+	for dial_node in get_children():
+		for child in dial_node.get_children():
+			if child is LockDial:
+				current_code.append(child.current_value)
+	return current_code
 
 func check_code():
-	var current_code = [
-		$Dial1.current_value,
-		$Dial2.current_value,
-		$Dial3.current_value,
-		$Dial4.current_value
-	]
-
-	#if current_code == correct_code:
-		#unlock()
-
-#func unlock():
-	#get_tree().change_scene_to_file("res://TargetScene.tscn") #opened box
+	if get_entered_code() == correct_code:
+		var next_scene = load("res://lock-open.tscn") as PackedScene
+		get_tree().change_scene_to_packed(next_scene)

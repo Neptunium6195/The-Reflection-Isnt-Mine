@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyvcsexfa2ix4"]
+
+[ext_resource type="Texture2D" uid="uid://caxc3tb7p38i1" path="res://Assets/Lock Minigame/ellia-bed-box-open.png" id="1_ep5pu"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="bg" type="TextureRect" parent="."]
+offset_top = -1.0
+offset_right = 2160.0
+offset_bottom = 1619.0
+texture = ExtResource("1_ep5pu")

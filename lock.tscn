@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://cjgemh5flqt5k"]
 
 [ext_resource type="Script" uid="uid://cfg0bnqil6r1u" path="res://dial.gd" id="1_l5ccq"]
-[ext_resource type="Script" path="res://lock.gd" id="1_rmqde"]
+[ext_resource type="Script" uid="uid://r2q4ce7nm6ko" path="res://lock.gd" id="1_rmqde"]
 [ext_resource type="Texture2D" uid="uid://bqvgqdlg0vj1a" path="res://Assets/Lock Minigame/ellia-bed-box.png" id="2_6aaqj"]
 [ext_resource type="Texture2D" uid="uid://dkthe5b1flmy6" path="res://Assets/Lock Minigame/dial-numbers.png" id="4_ebkbn"]
 [ext_resource type="Texture2D" uid="uid://cxonlwj8is80g" path="res://Assets/Lock Minigame/box-overlay.png" id="5_d4h6p"]

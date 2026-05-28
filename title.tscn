@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cq7igrn46iiu6"]
+[gd_scene format=3 uid="uid://cq7igrn46iiu6"]
 
 [ext_resource type="Texture2D" uid="uid://c0de1a0ovdk82" path="res://Assets/Title Page/title-screen.png" id="1_kpexm"]
 [ext_resource type="Texture2D" uid="uid://vyl4utejgljy" path="res://Assets/Title Page/play.png" id="2_3xoar"]
@@ -33,29 +33,32 @@ corner_radius_bottom_left = 10
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0824t"]
 
-[node name="Start" type="Control"]
+[node name="Start" type="Control" unique_id=845539723]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1833486769]
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 54.050003
-anchor_bottom = 40.475002
-offset_bottom = -0.00012207031
+anchor_right = 80.225006
+anchor_bottom = 46.45
+offset_left = -21.0
+offset_top = -280.0
+offset_right = -8.000244
+offset_bottom = -121.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_kpexm")
 expand_mode = 3
 
-[node name="Button" type="Button" parent="."]
+[node name="Button" type="Button" parent="." unique_id=2032286668]
 layout_mode = 0
-offset_left = 1464.0
-offset_top = 969.0
-offset_right = 2187.7288
-offset_bottom = 1158.0
+offset_left = 2081.0
+offset_top = 1152.0
+offset_right = 2804.7285
+offset_bottom = 1341.0
 scale = Vector2(0.59, 0.59)
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxFlat_kpexm")
@@ -66,37 +69,37 @@ theme_override_styles/focus = SubResource("StyleBoxEmpty_0824t")
 icon = ExtResource("2_3xoar")
 script = ExtResource("2_oyqm6")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1713570417]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 1130.0001
-offset_top = 1644.0
-offset_right = 2204.662
-offset_bottom = 2050.4111
+offset_left = 3089.0
+offset_top = 2155.0
+offset_right = 4163.662
+offset_bottom = 2561.4111
 grow_horizontal = 2
 grow_vertical = 2
 rotation = -0.38586998
 scale = Vector2(1.0112691, 1.2602106)
 color = Color(1, 1, 1, 0.08627451)
 
-[node name="ColorRect2" type="ColorRect" parent="."]
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=723888828]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 1314.0002
-offset_top = 1704.0
-offset_right = 2388.662
-offset_bottom = 2110.4111
+offset_left = 3376.0002
+offset_top = 2106.0
+offset_right = 4450.662
+offset_bottom = 2512.4111
 grow_horizontal = 2
 grow_vertical = 2
 rotation = -0.38586998
 scale = Vector2(1.0112691, 1.2602106)
 color = Color(1, 1, 1, 0.16078432)
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=183592443]
 stream = ExtResource("4_3xoar")
 autoplay = true
 

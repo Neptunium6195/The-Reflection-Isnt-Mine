@@ -1,8 +1,9 @@
 # in her room
 [background arg="res://Assets/Backgrounds/ellia-bedroom.png" fade="0.0"]
+[i]Day 1[/i]
 join ellia center
-ellia (happy): This skirt is softer than any of the ones I have ever owned…
-# entrance hall bg
+ellia (happy): I had a great rest last night... Let's see what tasks I need to complete today.
+# at drawing room
 [background arg="res://Assets/Backgrounds/drawing-room-new.png" fade="0.0"]
 [wait time="2.5"]
 ellia (happy): First, sweep the floor.

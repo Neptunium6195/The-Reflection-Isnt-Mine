@@ -53,9 +53,9 @@ mrs-newington: She will surely punish you.
 - Fight back. Mrs. Newington might not be who you think she is.
 	set {portalEnding} = true
 	join ellia left
-	ellia (sigh): No... you are not real
+	ellia (sigh): No... you are not real!
 	update mrs-newington (smile)
-	ellia (sigh): You are an illusion
+	ellia (sigh): You are an illusion!
 	update mrs-newington (wink)
 	[wait time="1.0"]
 	update ellia (worried)
@@ -66,7 +66,7 @@ mrs-newington: She will surely punish you.
 	ellia: I can not stay here much longer...
 	leave ellia
 	[background arg="res://Assets/mirror.png" fade="0.0"]
-	ellia: If Charles is trapped in that mirror I must get him out and leave this manor
+	ellia: If Charles is trapped in that mirror, I must get him out and leave this manor.
 	join ellia right (confused)
 	[background arg="res://Assets/mirrorBg.png" fade="0.0"]
 	ellia: How does one go through a mirror?
@@ -81,7 +81,7 @@ mrs-newington: She will surely punish you.
 	[wait time="0.7"]
 	leave mrs-newington
 	join ellia (worried) right
-	ellia: Okay
+	ellia: Okay...
 	audio "res://Audio/Portal swoosh v3.mp3"
 	ellia: Here I go...
 	[background fade="0.5"]

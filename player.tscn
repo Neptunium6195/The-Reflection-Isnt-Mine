@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://dnwdxoy0i7w3r"]
+[gd_scene format=3 uid="uid://dnwdxoy0i7w3r"]
 
 [ext_resource type="Texture2D" uid="uid://ddq8sxi2rcjkv" path="res://Assets/dinoCharactersVersion1/sheets/DinoSprites - tard.png" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://cv4b2ui1ulmp5" path="res://player_movement.gd" id="2_onrkg"]
@@ -144,7 +144,7 @@ animations = [{
 radius = 16.600021
 height = 54.0
 
-[node name="player" type="CharacterBody2D"]
+[node name="player" type="CharacterBody2D" unique_id=1157874879]
 scale = Vector2(5, 5)
 disable_mode = 2
 motion_mode = 1
@@ -152,7 +152,7 @@ safe_margin = 0.001
 script = ExtResource("2_onrkg")
 movement_speed = 400.0
 
-[node name="sprite" type="AnimatedSprite2D" parent="."]
+[node name="sprite" type="AnimatedSprite2D" parent="." unique_id=441512827]
 unique_name_in_owner = true
 position = Vector2(216.4, 161)
 scale = Vector2(0.03, 0.036)
@@ -160,11 +160,11 @@ sprite_frames = SubResource("SpriteFrames_606se")
 animation = &"elliaNormal"
 autoplay = "elliaNormal"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(216.19998, 159.2)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=49721745]
+position = Vector2(214.6, 161.2)
 shape = SubResource("CapsuleShape2D_u1c27")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(217.79999, 160.4)
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2004950374]
+position = Vector2(216.79999, 160.4)
 limit_left = 0
 limit_top = 0

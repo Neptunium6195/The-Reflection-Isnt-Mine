@@ -65,16 +65,16 @@ mrs-williams: The manor… it watches, you must know. Rest well.
 leave mrs-williams
 # ellia's room pan (skip)
 # another part of bedroom?
-[background arg="res://Assets/room.png" fade="0.0"]
+[background arg="res://Assets/IMG_0744.PNG" fade="0.0"]
 # thoughts
 [style]
 ellia (confused): It watches? What is that supposed to mean? There [i]are[/i] a lot of portraits here.
 ellia (happy): I am filled with utter gratitude that they feed me. What considerate masters.
-# creaking
 leave ellia
 [background arg="res://Assets/Backgrounds/ellia-bedroom.png" fade="0.7"]
 join ellia center
 ellia (confused): So this is my room...
+# creaking
 audio "res://Audio/creaking-wood-199971-[AudioTrimmer.com].mp3"
 [wait time="0.5"]
 ellia (worried): Such an old manor.
@@ -94,7 +94,7 @@ leave ellia
 [background arg="res://Assets/Backgrounds/ellia-bedroom.png" fade="0.0"]
 join ellia (teary) center
 ellia (sigh): Oh, it was just a dream...
-ellia: Everything is fine now
+ellia: Everything is fine now.
 ellia (worried): Charles, where could you be?
 leave ellia
 # snoring sound again to show that she fell back asleep

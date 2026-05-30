@@ -22,5 +22,5 @@ ellia (shocked): What do I do?
 ellia (worried): I don’t know what is worse… having a reflection or not seeing anything in the mirror.
 ellia (sigh): I cannot bear to look through a mirror any longer.
 ellia (worried): It scares me so.
-[background fade="0.5"]
+[background arg="res://Assets/room.png" fade="0.5"]
 [end_timeline]
